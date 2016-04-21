@@ -1,0 +1,109 @@
+Random forests
+
+A single decision tree can learn quite complex functions. However, in many ways it will be prone to overfitting—learning rules that work only for the training set. One of the ways that we can adjust for this is to limit the number of rules that it learns. For instance, we could limit the depth of the tree to just three layers. Such a tree will learn the best rules for splitting the dataset at a global level, but won't learn highly specific rules that separate the dataset into highly accurate groups. This trade-off results in trees that may have a good generalization, but overall slightly poorer performance.
+
+To compensate for this, we could create many decision trees and then ask each to predict the class value. We could take a majority vote and use that answer as our overall prediction. Random forests work on this principle.
+
+There are two problems with the aforementioned procedure. The first problem is that building decision trees is largely deterministic—using the same input will result in the same output each time. We only have one training dataset, which means our input (and therefore the output) will be the same if we try build multiple trees. We can address this by choosing a random subsample of our dataset, effectively creating new training sets. This process is called bagging.
+
+The second problem is that the features that are used for the first few decision nodes in our tree will be quite good. Even if we choose random subsamples of our training data, it is still quite possible that the decision trees built will be largely the same. To compensate for this, we also choose a random subset of the features to perform our data splits on.
+
+Then, we have randomly built trees using randomly chosen samples, using (nearly) randomly chosen features. This is a Random Forest and, perhaps unintuitively, this algorithm is very effective on many datasets.
+How do ensembles work?
+
+The randomness inherent in Random forests may make it seem like we are leaving the results of the algorithm up to chance. However, we apply the benefits of averaging to nearly randomly built decision trees, resulting in an algorithm that reduces the variance of the result.
+
+Variance is the error introduced by variations in the training dataset on the algorithm. Algorithms with a high variance (such as decision trees) can be greatly affected by variations to the training dataset. This results in models that have the problem of overfitting.
+Note
+
+In contrast, bias is the error introduced by assumptions in the algorithm rather than anything to do with the dataset, that is, if we had an algorithm that presumed that all features would be normally distributed then our algorithm may have a high error if the features were not. Negative impacts from bias can be reduced by analyzing the data to see if the classifier's data model matches that of the actual data.
+
+By averaging a large number of decision trees, this variance is greatly reduced. This results in a model with a higher overall accuracy.
+
+In general, ensembles work on the assumption that errors in prediction are effectively random and that those errors are quite different from classifier to classifier. By averaging the results across many models, these random errors are canceled out—leaving the true prediction. We will see many more ensembles in action throughout the rest of the book.
+Parameters in Random forests
+
+The Random forest implementation in scikit-learn is called RandomForestClassifier, and it has a number of parameters. As Random forests use many instances of DecisionTreeClassifier, they share many of the same parameters such as the criterion (Gini Impurity or Entropy/Information Gain), max_features, and min_samples_split.
+
+Also, there are some new parameters that are used in the ensemble process:
+
+    n_estimators: This dictates how many decision trees should be built. A higher value will take longer to run, but will (probably) result in a higher accuracy.
+    oob_score: If true, the method is tested using samples that aren't in the random subsamples chosen for training the decision trees.
+    n_jobs: This specifies the number of cores to use when training the decision trees in parallel.
+
+The scikit-learn package uses a library called Joblib for in-built parallelization. This parameter dictates how many cores to use. By default, only a single core is used—if you have more cores, you can increase this, or set it to -1 to use all cores.
+Applying Random forests
+
+Random forests in scikit-learn use the estimator interface, allowing us to use almost the exact same code as before to do cross fold validation:
+
+from sklearn.ensemble import RandomForestClassifier
+clf = RandomForestClassifier(random_state=14)
+scores = cross_val_score(clf, X_teams, y_true, scoring='accuracy')
+print("Accuracy: {0:.1f}%".format(np.mean(scores) * 100))
+
+This results in an immediate benefit of 60.6 percent, up by 0.6 points by just swapping the classifier.
+
+Random forests, using subsets of the features, should be able to learn more effectively with more features than normal decision trees. We can test this by throwing more features at the algorithm and seeing how it goes:
+
+X_all = np.hstack([X_home_higher, X_teams])
+clf = RandomForestClassifier(random_state=14)
+scores = cross_val_score(clf, X_all, y_true, scoring='accuracy')
+print("Accuracy: {0:.1f}%".format(np.mean(scores) * 100))
+
+This results in 61.1 percent —even better! We can also try some other parameters using the GridSearchCV class as we introduced in Chapter 2, Classifying with scikit-learn Estimators:
+
+parameter_space = {
+  "max_features": [2, 10, 'auto'],
+  "n_estimators": [100,],
+  "criterion": ["gini", "entropy"],
+  "min_samples_leaf": [2, 4, 6],
+}
+clf = RandomForestClassifier(random_state=14)
+grid = GridSearchCV(clf, parameter_space)
+grid.fit(X_all, y_true)
+print("Accuracy: {0:.1f}%".format(grid.best_score_ * 100))
+
+This has a much better accuracy of 64.2 percent!
+
+If we wanted to see the parameters used, we can print out the best model that was found in the grid search. The code is as follows:
+
+print(grid.best_estimator_)
+
+The result shows the parameters that were used in the best scoring model:
+
+RandomForestClassifier(bootstrap=True, compute_importances=None, criterion='entropy', max_depth=None, max_features=2, max_leaf_nodes=None, min_density=None, min_samples_leaf=6, min_samples_split=2, n_estimators=100, n_jobs=1, oob_score=False, random_state=14, verbose=0)
+
+Engineering new features
+
+In the previous few examples, we saw that changing the features can have quite a large impact on the performance of the algorithm. Through our small amount of testing, we had more than 10 percent variance just from the features.
+
+You can create features that come from a simple function in pandas by doing something like this:
+
+dataset["New Feature"] = feature_creator()
+
+The feature_creator function must return a list of the feature's value for each sample in the dataset. A common pattern is to use the dataset as a parameter:
+
+dataset["New Feature"] = feature_creator(dataset)
+
+You can create those features more directly by setting all the values to a single "default" value, like 0 in the next line:
+
+dataset["My New Feature"] = 0
+
+You can then iterate over the dataset, computing the features as you go. We used this format in this chapter to create many of our features:
+
+  for index, row in dataset.iterrows():
+    home_team = row["Home Team"]
+    visitor_team = row["Visitor Team"]
+    # Some calculation here to alter row dataset.ix[index] = row
+
+Keep in mind that this pattern isn't very efficient. If you are going to do this, try all of your features at once. A common "best practice" is to touch every sample as little as possible, preferably only once.
+
+Some example features that you could try and implement are as follows:
+
+    How many days has it been since each team's previous match? Teams may be tired if they play too many games in a short time frame.
+    How many games of the last five did each team win? This will give a more stable form of the HomeLastWin and VisitorLastWin features we extracted earlier (and can be extracted in a very similar way).
+    Do teams have a good record when visiting certain other teams? For instance, one team may play well in a particular stadium, even if they are the visitors.
+
+If you are facing trouble extracting features of these types, check the pandas documentation at http://pandas.pydata.org/pandas-docs/stable/ for help. Alternatively, you can try an online forum such as Stack Overflow for assistance.
+
+More extreme examples could use player data to estimate the strength of each team's sides to predict who won. These types of complex features are used every day by gamblers and sports betting agencies to try to turn a profit by predicting the outcome of sports matches.

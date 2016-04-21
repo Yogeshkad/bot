@@ -1,0 +1,276 @@
+date,team1,score1,team2,score2
+2016-04-01 00:00:00,Virtus.pro,16,G2,9
+2016-04-01 00:00:00,G2,16,Virtus.pro,9
+2016-04-01 00:00:00,Virtus.pro,16,G2,7
+2016-04-01 00:00:00,NiP,9,Natus Vincere,16
+2016-04-01 00:00:00,Natus Vincere,16,NiP,10
+2016-04-01 00:00:00,fnatic,10,Astralis,16
+2016-04-01 00:00:00,fnatic,5,Astralis,16
+2016-04-01 00:00:00,KoN Denmark,13,KoN Norway,16
+2016-04-01 00:00:00,KoN Norway,9,KoN Finland,16
+2016-04-01 00:00:00,TogetherAsOne,9,Bpro,16
+2016-04-01 00:00:00,Liquid,16,CLG,13
+2016-04-01 00:00:00,Liquid,16,CLG,6
+2016-04-02 00:00:00,Virtus.pro,19,Luminosity,17
+2016-04-02 00:00:00,Virtus.pro,10,Luminosity,16
+2016-04-02 00:00:00,Virtus.pro,11,Luminosity,16
+2016-04-02 00:00:00,Astralis,14,Natus Vincere,16
+2016-04-02 00:00:00,Natus Vincere,16,Astralis,5
+2016-04-02 00:00:00,Liquid,15,Luminosity,19
+2016-04-02 00:00:00,Liquid,16,Luminosity,19
+2016-04-03 00:00:00,Nevermad,16,PENTA,4
+2016-04-03 00:00:00,PENTA,16,Nevermad,7
+2016-04-03 00:00:00,Americas All-Stars,22,Europe All-Stars,19
+2016-04-03 00:00:00,neXtPlease!,16,CS-GO.rs,14
+2016-04-03 00:00:00,Luminosity,19,Natus Vincere,17
+2016-04-03 00:00:00,Natus Vincere,2,Luminosity,16
+2016-04-03 00:00:00,iNation,11,XPC,16
+2016-04-04 00:00:00,Epsilon,16,AGG,2
+2016-04-04 00:00:00,Epsilon,16,AGG,10
+2016-04-04 00:00:00,Escape,16,HellRaisers,6
+2016-04-04 00:00:00,SuperMassive,19,Pixel,17
+2016-04-04 00:00:00,Deathtrap,12,aimclub,16
+2016-04-05 00:00:00,aimclub,9,SuperMassive,16
+2016-04-05 00:00:00,RB,8,GameAgents,16
+2016-04-06 00:00:00,Renegades,2,NRG,16
+2016-04-06 00:00:00,NRG,16,Renegades,13
+2016-04-06 00:00:00,HellRaisers,16,AGG,9
+2016-04-06 00:00:00,HellRaisers,16,AGG,13
+2016-04-06 00:00:00,XPC,15,dignitas,19
+2016-04-06 00:00:00,XPC,4,dignitas,16
+2016-04-06 00:00:00,PENTA,19,Planetkey,17
+2016-04-06 00:00:00,SK,8,Gambit,16
+2016-04-06 00:00:00,SK,16,Gambit,5
+2016-04-06 00:00:00,HellRaisers,16,CSGL,5
+2016-04-06 00:00:00,HellRaisers,16,CSGL,6
+2016-04-06 00:00:00,AGG,10,SK,16
+2016-04-06 00:00:00,SK,5,AGG,16
+2016-04-06 00:00:00,Winterfox,21,Echo Fox,25
+2016-04-06 00:00:00,Echo Fox,16,Winterfox,12
+2016-04-07 00:00:00,compLexity,22,KKona,18
+2016-04-07 00:00:00,compLexity,8,KKona,16
+2016-04-07 00:00:00,Obey.Alliance,15,Echo Fox,19
+2016-04-07 00:00:00,Obey.Alliance,5,Echo Fox,16
+2016-04-07 00:00:00,KKona,6,Obey.Alliance,16
+2016-04-07 00:00:00,Obey.Alliance,16,KKona,9
+2016-04-07 00:00:00,PENTA,14,Empire,16
+2016-04-07 00:00:00,E-frag.net,16,Gambit,3
+2016-04-07 00:00:00,Gambit,6,E-frag.net,16
+2016-04-07 00:00:00,NiP,16,FlipSid3,4
+2016-04-07 00:00:00,HellRaisers,16,SK,14
+2016-04-07 00:00:00,SK,12,HellRaisers,16
+2016-04-07 00:00:00,NiP,16,FlipSid3,8
+2016-04-07 00:00:00,Deathtrap,8,Bpro,16
+2016-04-07 00:00:00,Method,9,nerdRage,16
+2016-04-07 00:00:00,Method,16,nerdRage,11
+2016-04-07 00:00:00,nerdRage,16,Method,5
+2016-04-07 00:00:00,Space Soldiers,16,GODSENT,10
+2016-04-07 00:00:00,Space Soldiers,16,GODSENT,5
+2016-04-07 00:00:00,Virtus.pro,11,SK,16
+2016-04-07 00:00:00,aimclub,16,Pixel,10
+2016-04-07 00:00:00,HellRaisers,14,Gambit,16
+2016-04-07 00:00:00,Gambit,16,HellRaisers,9
+2016-04-07 00:00:00,Virtus.pro,12,SK,16
+2016-04-07 00:00:00,Gambit,16,AGG,14
+2016-04-07 00:00:00,Gambit,16,AGG,9
+2016-04-07 00:00:00,dignitas,16,EnVyUs,14
+2016-04-07 00:00:00,dignitas,16,EnVyUs,7
+2016-04-07 00:00:00,Echo Fox,16,KKona,12
+2016-04-07 00:00:00,Echo Fox,16,KKona,14
+2016-04-08 00:00:00,Liquid,16,Cloud9,8
+2016-04-08 00:00:00,Liquid,16,Cloud9,5
+2016-04-08 00:00:00,Liquid,16,OpTic,10
+2016-04-08 00:00:00,Liquid,16,OpTic,12
+2016-04-08 00:00:00,Imp?rio Multim?dia,2,k1ck,16
+2016-04-08 00:00:00,k1ck,16,Imp?rio Multim?dia,5
+2016-04-08 00:00:00,AlienTech,16,Galatics,6
+2016-04-08 00:00:00,AlienTech,16,Galatics,7
+2016-04-08 00:00:00,Empire,1,AGG,16
+2016-04-08 00:00:00,AGG,16,Empire,3
+2016-04-08 00:00:00,mousesports,14,HellRaisers,16
+2016-04-08 00:00:00,k1ck,6,k1ck,16
+2016-04-08 00:00:00,k1ck,16,k1ck,6
+2016-04-08 00:00:00,mousesports,19,HellRaisers,17
+2016-04-08 00:00:00,mousesports,11,HellRaisers,16
+2016-04-08 00:00:00,k1ck,16,k1ck,14
+2016-04-08 00:00:00,HellRaisers,8,mousesports,16
+2016-04-08 00:00:00,mousesports,16,HellRaisers,9
+2016-04-08 00:00:00,SuperMassive,16,XPC,12
+2016-04-08 00:00:00,ENCE,16,Alter Your Ego,2
+2016-04-08 00:00:00,Alter Your Ego,6,ENCE,16
+2016-04-08 00:00:00,KoN Denmark,11,KoN Norway,16
+2016-04-08 00:00:00,miMo,5,Epsilon,16
+2016-04-08 00:00:00,Epsilon,16,miMo,11
+2016-04-08 00:00:00,iNation,16,CS-GO.rs,6
+2016-04-08 00:00:00,KoN Norway,7,KoN Finland,16
+2016-04-08 00:00:00,AlienTech,19,gBots,15
+2016-04-08 00:00:00,gBots,16,AlienTech,12
+2016-04-08 00:00:00,gBots,16,AlienTech,5
+2016-04-08 00:00:00,Splyce,16,Echo Fox,10
+2016-04-08 00:00:00,Splyce,11,Echo Fox,16
+2016-04-08 00:00:00,Splyce,12,Echo Fox,16
+2016-04-08 00:00:00,Echo Fox,10,Splyce,16
+2016-04-08 00:00:00,Splyce,11,Echo Fox,16
+2016-04-09 00:00:00,k1ck,16,Galatics,5
+2016-04-09 00:00:00,Galatics,13,k1ck,16
+2016-04-09 00:00:00,k1ck,16,Galatics,13
+2016-04-09 00:00:00,AlienTech,16,Imp?rio Multim?dia,2
+2016-04-09 00:00:00,AlienTech,16,Imp?rio Multim?dia,2
+2016-04-09 00:00:00,G2,16,Gambit,7
+2016-04-09 00:00:00,k1ck,4,gBots,16
+2016-04-09 00:00:00,Gambit,6,G2,16
+2016-04-09 00:00:00,G2,16,Gambit,10
+2016-04-09 00:00:00,k1ck,16,gBots,8
+2016-04-09 00:00:00,k1ck,16,gBots,11
+2016-04-09 00:00:00,k1ck,9,AlienTech,16
+2016-04-09 00:00:00,AlienTech,16,k1ck,12
+2016-04-10 00:00:00,AlienTech,10,gBots,16
+2016-04-10 00:00:00,gBots,16,AlienTech,9
+2016-04-10 00:00:00,mousesports,16,Astralis,5
+2016-04-10 00:00:00,mousesports,13,Astralis,16
+2016-04-10 00:00:00,mousesports,3,Astralis,16
+2016-04-10 00:00:00,dignitas,16,Virtus.pro,13
+2016-04-10 00:00:00,Virtus.pro,16,dignitas,4
+2016-04-10 00:00:00,Virtus.pro,14,dignitas,16
+2016-04-10 00:00:00,k1ck,8,gBots,16
+2016-04-10 00:00:00,k1ck,16,gBots,14
+2016-04-10 00:00:00,gBots,10,k1ck,16
+2016-04-10 00:00:00,Empire,8,HellRaisers,16
+2016-04-10 00:00:00,HellRaisers,16,Empire,3
+2016-04-10 00:00:00,EnVyUs,16,G2,7
+2016-04-10 00:00:00,EnVyUs,6,G2,16
+2016-04-10 00:00:00,EnVyUs,22,G2,20
+2016-04-10 00:00:00,FlipSid3,8,dignitas,16
+2016-04-10 00:00:00,dignitas,13,FlipSid3,16
+2016-04-10 00:00:00,dignitas,16,FlipSid3,8
+2016-04-10 00:00:00,ALTERNATE aTTaX,16,PENTA,5
+2016-04-10 00:00:00,PENTA,16,ALTERNATE aTTaX,13
+2016-04-10 00:00:00,ALTERNATE aTTaX,12,PENTA,16
+2016-04-10 00:00:00,compLexity,5,NRG,16
+2016-04-11 00:00:00,Without a Roof,8,OpTic,16
+2016-04-11 00:00:00,OpTic,16,Without a Roof,2
+2016-04-11 00:00:00,Gambit,10,AGG,16
+2016-04-11 00:00:00,Gambit,19,AGG,17
+2016-04-11 00:00:00,Gambit,16,AGG,11
+2016-04-11 00:00:00,Tricked,16,Torpedo,14
+2016-04-11 00:00:00,Tricked,13,Torpedo,16
+2016-04-11 00:00:00,Tricked,11,Torpedo,16
+2016-04-11 00:00:00,E-frag.net,19,PENTA,22
+2016-04-11 00:00:00,FlipSid3,19,Method,15
+2016-04-11 00:00:00,FlipSid3,16,Method,13
+2016-04-11 00:00:00,PENTA,6,E-frag.net,16
+2016-04-11 00:00:00,E-frag.net,16,PENTA,11
+2016-04-11 00:00:00,GameAgents,16,Bpro,13
+2016-04-11 00:00:00,Deathtrap,19,Pixel,16
+2016-04-11 00:00:00,CPH Wolves,6,SK,16
+2016-04-11 00:00:00,CPH Wolves,19,SK,15
+2016-04-11 00:00:00,SK,16,CPH Wolves,12
+2016-04-11 00:00:00,Gambit,14,PENTA,16
+2016-04-11 00:00:00,PENTA,11,Gambit,16
+2016-04-11 00:00:00,PENTA,13,Gambit,16
+2016-04-12 00:00:00,Luminosity,16,TyLoo,7
+2016-04-12 00:00:00,mousesports,16,Liquid,13
+2016-04-12 00:00:00,Natus Vincere,16,GODSENT,11
+2016-04-12 00:00:00,CLG,16,G2,2
+2016-04-12 00:00:00,CSGL,9,Astralis,16
+2016-04-12 00:00:00,Epsilon,12,AGG,16
+2016-04-12 00:00:00,Epsilon,6,AGG,16
+2016-04-12 00:00:00,AGG,11,Epsilon,16
+2016-04-12 00:00:00,Epsilon,18,AGG,21
+2016-04-12 00:00:00,dignitas,16,NiP,2
+2016-04-12 00:00:00,RCTIC,16,Enso,13
+2016-04-12 00:00:00,RCTIC,13,Enso,16
+2016-04-12 00:00:00,RCTIC,16,Enso,14
+2016-04-12 00:00:00,Virtus.pro,16,FaZe,8
+2016-04-12 00:00:00,Tempo Storm,16,EnVyUs,14
+2016-04-13 00:00:00,TyLoo,22,Liquid,19
+2016-04-13 00:00:00,GODSENT,16,G2,8
+2016-04-13 00:00:00,NiP,16,CSGL,8
+2016-04-13 00:00:00,EnVyUs,16,FaZe,12
+2016-04-13 00:00:00,mousesports,16,Luminosity,7
+2016-04-13 00:00:00,Natus Vincere,19,CLG,15
+2016-04-13 00:00:00,E-frag.net,16,RCTIC,2
+2016-04-13 00:00:00,dignitas,16,Astralis,9
+2016-04-13 00:00:00,iNation,6,RB,16
+2016-04-13 00:00:00,FlipSid3,16,Escape,11
+2016-04-13 00:00:00,FlipSid3,16,Escape,6
+2016-04-13 00:00:00,Tempo Storm,9,Virtus.pro,16
+2016-04-14 00:00:00,TyLoo,16,Luminosity,14
+2016-04-14 00:00:00,TyLoo,7,Luminosity,16
+2016-04-14 00:00:00,Luminosity,12,TyLoo,16
+2016-04-14 00:00:00,CLG,16,GODSENT,19
+2016-04-14 00:00:00,CLG,8,GODSENT,16
+2016-04-14 00:00:00,Astralis,5,NiP,16
+2016-04-14 00:00:00,NiP,9,Astralis,16
+2016-04-14 00:00:00,NiP,16,Astralis,12
+2016-04-14 00:00:00,AliGon,16,Epiphany Bolt,6
+2016-04-14 00:00:00,AliGon,16,Epiphany Bolt,11
+2016-04-14 00:00:00,RCTIC,16,Enso,5
+2016-04-14 00:00:00,SK,16,Torpedo,3
+2016-04-14 00:00:00,SK,16,Torpedo,12
+2016-04-14 00:00:00,Tempo Storm,9,EnVyUs,16
+2016-04-14 00:00:00,Tempo Storm,14,EnVyUs,16
+2016-04-16 00:00:00,Natus Vincere,16,TyLoo,10
+2016-04-16 00:00:00,Natus Vincere,16,TyLoo,5
+2016-04-16 00:00:00,dignitas,12,EnVyUs,16
+2016-04-16 00:00:00,EnVyUs,16,dignitas,8
+2016-04-16 00:00:00,mousesports,16,GODSENT,7
+2016-04-16 00:00:00,mousesports,10,GODSENT,16
+2016-04-16 00:00:00,GG1337,10,XPC,16
+2016-04-16 00:00:00,XPC,16,GG1337,6
+2016-04-16 00:00:00,mousesports,13,GODSENT,16
+2016-04-16 00:00:00,neXtPlease!,7,RB,16
+2016-04-16 00:00:00,NiP,16,Virtus.pro,12
+2016-04-16 00:00:00,Virtus.pro,12,NiP,16
+2016-04-17 00:00:00,Natus Vincere,16,EnVyUs,7
+2016-04-17 00:00:00,Natus Vincere,16,EnVyUs,2
+2016-04-17 00:00:00,GODSENT,14,NiP,16
+2016-04-17 00:00:00,NiP,16,GODSENT,19
+2016-04-17 00:00:00,NiP,16,GODSENT,10
+2016-04-17 00:00:00,NiP,16,Natus Vincere,14
+2016-04-17 00:00:00,NiP,16,Natus Vincere,14
+2016-04-18 00:00:00,Enso,12,CPH Wolves,16
+2016-04-18 00:00:00,CPH Wolves,16,Enso,13
+2016-04-18 00:00:00,AliGon,12,Enso,16
+2016-04-18 00:00:00,AliGon,16,Enso,6
+2016-04-18 00:00:00,E-frag.net,16,SK,8
+2016-04-18 00:00:00,SK,16,E-frag.net,12
+2016-04-18 00:00:00,neXtPlease!,8,Bpro,16
+2016-04-19 00:00:00,Virtus.pro,16,FaZe,8
+2016-04-19 00:00:00,Epiphany Bolt,5,CPH Wolves,16
+2016-04-19 00:00:00,CPH Wolves,16,Epiphany Bolt,1
+2016-04-19 00:00:00,mousesports,22,EnVyUs,19
+2016-04-19 00:00:00,FaZe,16,Virtus.pro,10
+2016-04-19 00:00:00,Virtus.pro,12,FaZe,16
+2016-04-19 00:00:00,CS-GO.rs,7,aimclub,16
+2016-04-19 00:00:00,mousesports,16,EnVyUs,8
+2016-04-19 00:00:00,RCTIC,9,AliGon,16
+2016-04-19 00:00:00,AliGon,16,RCTIC,7
+2016-04-19 00:00:00,Natus Vincere,11,fnatic,16
+2016-04-19 00:00:00,fnatic,13,Natus Vincere,16
+2016-04-19 00:00:00,RCTIC,8,Epiphany Bolt,16
+2016-04-19 00:00:00,RCTIC,29,Epiphany Bolt,31
+2016-04-19 00:00:00,Astralis,16,FaZe,12
+2016-04-19 00:00:00,Astralis,16,FaZe,9
+2016-04-20 00:00:00,PiTER,1,GODSENT,16
+2016-04-20 00:00:00,Binary Dragons Gold,1,eXplosive,16
+2016-04-20 00:00:00,Must Be Stronger,14,Digital Wave,16
+2016-04-20 00:00:00,PiTER,13,GODSENT,16
+2016-04-20 00:00:00,Binary Dragons Gold,8,eXplosive,16
+2016-04-20 00:00:00,Must Be Stronger,11,Digital Wave,16
+2016-04-20 00:00:00,EnVyUs,16,FaZe,9
+2016-04-20 00:00:00,Natus Vincere,16,FlipSid3,12
+2016-04-20 00:00:00,EnVyUs,16,FaZe,11
+2016-04-20 00:00:00,FlipSid3,16,Natus Vincere,8
+2016-04-20 00:00:00,RB,19,SuperMassive,16
+2016-04-20 00:00:00,Vesuvius,16,TEAMSWAGYOLO,7
+2016-04-20 00:00:00,Fluffy Gangsters,19,Tempest,16
+2016-04-20 00:00:00,Vesuvius,16,TEAMSWAGYOLO,19
+2016-04-20 00:00:00,TEAMSWAGYOLO,16,Vesuvius,13
+2016-04-20 00:00:00,Tempest,17,Fluffy Gangsters,19
+2016-04-20 00:00:00,dignitas,3,FlipSid3,16
+2016-04-20 00:00:00,Natus Vincere,19,G2,16
+2016-04-20 00:00:00,dignitas,16,FlipSid3,7
+2016-04-20 00:00:00,Natus Vincere,3,G2,16
+2016-04-20 00:00:00,fnatic,6,FaZe,16
+2016-04-20 00:00:00,fnatic,10,FaZe,16
