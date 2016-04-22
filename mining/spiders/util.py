@@ -1,6 +1,12 @@
+import pandas as pd 
+import numpy as np
 import csv
 import re
 import os
+
+months = [['feb', '2016-02-01', '2016-03-01'], 
+		['mar', '2016-03-01', '2016-04-01'],
+		['apr', '2016-04-01', '2016-05-01']]
 
 #converts raw text to csv usable list
 def textParser(data, page):
@@ -24,35 +30,65 @@ def textParser(data, page):
 	d.append(int(p))
 	return d;
 
-#takes scraped data and writes into a csv file
-def createCsv(d, data):	
-	if d == 'matches':
-		fpath = '../data/matches/matches_all.csv'
-		fieldnames = ['date', 'team1', 'score1', 'team2', 'score2']
+
+#create csv files, one for all matches and one for each month
+def createMatchCsv(data):	
+	fieldnames = ['date', 'team1', 'score1', 'team2', 'score2']
+
+	#reads in matches_all and writes a file for given period
+	def createMonthCsv(name, start, end):
+		#df = pd.read_csv('../data/matches/matches_all.csv', parse_dates=["date"])
+		
+		df = pd.DataFrame(data=data, columns=fieldnames)
+		df['date'] = pd.to_datetime(df['date'])
+		
+		with open('../data/matches/matches_' + name + '.csv', 'w') as f:
+			w = csv.DictWriter(f, fieldnames=fieldnames)
+			w.writeheader()	
+			w = csv.writer(f)
+			for index, row in df.iterrows():
+				if (row['date'] >= np.datetime64(start)) and (row['date'] < np.datetime64(end)):
+					w.writerows([row])	
+
+
+	fpath = '../data/matches/matches_all.csv'
+	with open(fpath, 'w') as f:
+		w = csv.DictWriter(f, fieldnames=fieldnames)
+		w.writeheader()		
+		w = csv.writer(f)	
+		mSorted = sorted(data,key=lambda x: x[5])
+		for m in reversed(mSorted):
+			m.pop()
+			w.writerows([m])
+	
+	for m in months:
+ 		createMonthCsv(m[0], m[1], m[2])		
+
+#create a csv file of ranks for each month
+def createRankCsv(data):		
+	fieldnames = ['team','rank']	
+	for key in data:
+		fpath = '../data/ranks/ranks_' + key + '.csv'
 		with open(fpath, 'w') as f:
 			w = csv.DictWriter(f, fieldnames=fieldnames)
 			w.writeheader()		
 			w = csv.writer(f)	
-			mSorted = sorted(data,key=lambda x: x[5])
-			for m in reversed(mSorted):
-				m.pop()
-				w.writerows([m])
-	elif d == 'ranks': 
-		fieldnames = ['team','rank']	
-		for key in data:
-			fpath = '../data/ranks/ranks_' + key + '.csv'
-			with open(fpath, 'w') as f:
-				w = csv.DictWriter(f, fieldnames=fieldnames)
-				w.writeheader()		
-				w = csv.writer(f)	
-				for r in data[key]:
-					w.writerows([r])
-	elif d == 'teams':
-		fpath = '../data/teams/teams_all.csv'
-		fieldnames = ['team']	
-		with open(fpath, 'w') as f:
-			w = csv.DictWriter(f, fieldnames=fieldnames)
-			w.writeheader()		
-			w = csv.writer(f)	
-			for k in data:
-				w.writerows([[k]])	
+			for r in data[key]:
+				w.writerows([r])
+	
+def createTeamCsv(data):		
+	fieldnames = ['team']
+	fpath = '../data/teams/teams_all.csv'	
+	with open(fpath, 'w') as f:
+		w = csv.DictWriter(f, fieldnames=fieldnames)
+		w.writeheader()		
+		w = csv.writer(f)	
+		for k in data:
+			w.writerows([[k]])	
+			
+
+
+
+	
+
+

@@ -20,8 +20,8 @@ class spider(Spider):
 			yield Request(url[0], callback=self.parse, meta={'month': url[1]})				
 	
 	def closed(self, reason):
-		util.createCsv('ranks', ranks)
-		util.createCsv('teams', teams)
+		util.createRankCsv(ranks)
+		util.createTeamCsv(teams)
 
 	#gets ranking list from a page		
 	def parse(self, response):

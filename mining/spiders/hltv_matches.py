@@ -20,7 +20,7 @@ class spider(Spider):
 			yield Request(url)		
 	
 	def closed(self, reason):
-		util.createCsv('matches', matches)
+		util.createMatchCsv(matches)
 
 	def parse(self, response):
 		matchPath = """ 
