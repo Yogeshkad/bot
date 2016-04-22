@@ -9,12 +9,6 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.grid_search import GridSearchCV
 import csv
 
-
-
-months = [['feb', '2016-02-01', '2016-03-01'], 
-		['mar', '2016-03-01', '2016-04-01'],
-		['apr', '2016-04-01', '2016-05-01']]
-		
 print '>'
 #get teams
 with open('../data/teams/teams_all.csv', mode='r') as f:
