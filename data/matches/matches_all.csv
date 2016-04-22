@@ -1705,6 +1705,7 @@ date,team1,score1,team2,score2
 2016-04-04,Epsilon,16,AGG,2
 2016-04-04,Epsilon,16,AGG,10
 2016-04-04,Escape,16,HellRaisers,6
+2016-04-04,Escape,16,HellRaisers,11
 2016-04-04,SuperMassive,19,Pixel,17
 2016-04-04,Deathtrap,12,aimclub,16
 2016-04-05,aimclub,9,SuperMassive,16
@@ -1913,6 +1914,10 @@ date,team1,score1,team2,score2
 2016-04-18,E-frag.net,16,SK,8
 2016-04-18,SK,16,E-frag.net,12
 2016-04-18,neXtPlease!,8,Bpro,16
+2016-04-18,OpTic,16,Echo Fox,11
+2016-04-18,OpTic,16,Echo Fox,13
+2016-04-19,compLexity,10,Without a Roof,16
+2016-04-19,Without a Roof,16,compLexity,11
 2016-04-19,Virtus.pro,16,FaZe,8
 2016-04-19,Epiphany Bolt,5,CPH Wolves,16
 2016-04-19,CPH Wolves,16,Epiphany Bolt,1
@@ -1929,6 +1934,11 @@ date,team1,score1,team2,score2
 2016-04-19,RCTIC,29,Epiphany Bolt,31
 2016-04-19,Astralis,16,FaZe,12
 2016-04-19,Astralis,16,FaZe,9
+2016-04-19,TSM,16,Echo Fox,11
+2016-04-19,TSM,17,Echo Fox,19
+2016-04-19,Echo Fox,16,TSM,9
+2016-04-20,Liquid,16,NRG,14
+2016-04-20,Liquid,16,NRG,8
 2016-04-20,PiTER,1,GODSENT,16
 2016-04-20,Binary Dragons Gold,1,eXplosive,16
 2016-04-20,Must Be Stronger,14,Digital Wave,16
@@ -1950,4 +1960,32 @@ date,team1,score1,team2,score2
 2016-04-20,dignitas,16,FlipSid3,7
 2016-04-20,Natus Vincere,3,G2,16
 2016-04-20,fnatic,6,FaZe,16
+2016-04-20,Luminosity,16,NRG,11
+2016-04-20,Luminosity,19,NRG,16
 2016-04-20,fnatic,10,FaZe,16
+2016-04-21,Splyce,16,NRG,11
+2016-04-21,Splyce,10,NRG,16
+2016-04-21,KKona,6,CLG,16
+2016-04-21,Echo Fox,8,Cloud9,16
+2016-04-21,Cloud9,7,Echo Fox,16
+2016-04-21,Cloud9,16,Echo Fox,11
+2016-04-21,CLG,16,KKona,10
+2016-04-21,dignitas,14,Space Soldiers,16
+2016-04-21,Space Soldiers,16,dignitas,13
+2016-04-21,Torpedo,11,Escape,16
+2016-04-21,Torpedo,4,Escape,16
+2016-04-21,E-frag.net,14,HellRaisers,16
+2016-04-21,HellRaisers,16,E-frag.net,9
+2016-04-21,FlipSid3,8,FaZe,16
+2016-04-21,SuperMassive,16,CS-GO.rs,11
+2016-04-21,NiP,16,EnVyUs,10
+2016-04-21,FlipSid3,2,FaZe,16
+2016-04-21,NiP,16,EnVyUs,3
+2016-04-21,CPH Wolves,16,RCTIC,6
+2016-04-21,CPH Wolves,16,RCTIC,8
+2016-04-21,dignitas,16,FaZe,9
+2016-04-21,Gambit,5,HellRaisers,16
+2016-04-21,HellRaisers,16,Gambit,3
+2016-04-21,mousesports,16,Virtus.pro,5
+2016-04-21,dignitas,7,FaZe,16
+2016-04-21,mousesports,15,Virtus.pro,19
