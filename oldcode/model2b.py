@@ -170,24 +170,43 @@ for index, row in df.iterrows():
 
 #------------------
  
+
+# #>>>>> encode teams <<<<<
+# encoding = LabelEncoder()
+# encoding.fit(teams_all)
+# print df["team1"].values, len(df["team1"].values)
+# t1s = encoding.transform(df["team1"].values)
+# t2s = encoding.transform(df["team2"].values)
+# X_teams = np.vstack([t1s, t2s]).T
+# onehot = OneHotEncoder()
+# X_teams = onehot.fit_transform(X_teams).todense()
+# X_team_df = pd.DataFrame(X_teams)
+# X_df = pd.concat([X_team_df, df], axis=1)
+
 #separate training and testing
 #<<<<<<<<<<<<<<<<<<<<<<<
-X_train = df[df.date < np.datetime64('2016-04-01')]	
-X_test = df[df.date >= np.datetime64('2016-04-01')]
+#X_train = df[df.date < np.datetime64('2016-04-01')]	
+#X_test = df[df.date >= np.datetime64('2016-04-01')]
 
 
 #>>>>> encode teams <<<<<
 encoding = LabelEncoder()
 encoding.fit(teams_all)
 #for d in [X_train, X_test]:
-for d in [X_train, X_test]:
+for d in df:
 	t1s = encoding.transform(d["team1"].values)
 	t2s = encoding.transform(d["team2"].values)
 	X_teams = np.vstack([t1s, t2s]).T
 	onehot = OneHotEncoder()
 	X_teams = onehot.fit_transform(X_teams).todense()
 	X_team_df = pd.DataFrame(X_teams)
+	
 	d = pd.concat([X_team_df, d], axis=1)
+
+
+for index, row in X_train.iterrows():	
+	print '------'
+	print row
 
 #get output columns
 y_train = X_train['1wins'].values
@@ -199,12 +218,46 @@ colToDrop = ['date','team1', 'score1', 'team2', 'score2', '1wins', 't1WonLast', 
 X_train = X_train.drop(colToDrop, axis = 1)   
 X_test = X_test.drop(colToDrop, axis = 1)   
 
+
+
+
+
+
+#get dummies
+#need to redoo
+#just_dummies = pd.get_dummies(data= df, columns=['team1','team2'])
+#X_train = pd.concat([df_train, just_dummies], axis=1)      
+#        !TEST!
+#X_train.drop(['dummy', 'NiP'], inplace=True, axis=1)
+#X_train = X_train.applymap(np.int) 
+
+#X_df = pd.concat([df, pd.DataFrame(X_teams)], axis=1)      
+
+
+
+# t1s = encoding.transform(df_test["team1"].values)
+# t2s = encoding.transform(df_test["team2"].values)
+# X_teams = np.vstack([t1s, t2s]).T
+# onehot = OneHotEncoder()
+# X_test = onehot.fit_transform(X_teams).todense()
+# X_test = pd.concat([df_test, pd.DataFrame(X_teams)], axis=1)      
+
+# for x in X_test.iterrows():
+# 	print x
+# for x in t1s:
+# 	print x
+
+# for a in X_teams:
+# 	print a
+# 	print len(a)
+# 	print '------'
+# print type(X_test)
+# print len(teams_all)
+
 #>>>>> model <<<<<                              
 nb_est = GaussianNB()
 nb_est.fit(X_train, y_train)
 pred = nb_est.predict(X_test)
-print pred[0:8]
-
-
-#scores = cross_val_score(nb_est, X_train, y_true, scoring='accuracy')
-#print("Accuracy: {0:.1f}%".format(np.mean(scores) * 100))
+ 
+scores = cross_val_score(nb_est, X_train, y_true, scoring='accuracy')
+print("Accuracy: {0:.1f}%".format(np.mean(scores) * 100))
