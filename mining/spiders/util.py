@@ -26,7 +26,7 @@ def textParser(data, page):
 	d.append(int(p))
 	return d;
 
-#create csv files, one for all matches and one for each month
+#creates a csv file for list of matches
 def createMatchCsv(matchType, data):	
 	fieldnames = ['date', 'team1', 'score1', 'team2', 'score2']		
 	fpath = '../data/matches/' + matchType + '_matches_all.csv'
@@ -39,7 +39,7 @@ def createMatchCsv(matchType, data):
 			m.pop()
 			w.writerows([m])		
 
-#create a csv file of ranks for each month
+#creates a csv file of ranks for each month
 def createRankCsv(data):		
 	fieldnames = ['team','rank']	
 	for key in data:
@@ -50,7 +50,8 @@ def createRankCsv(data):
 			w = csv.writer(f)	
 			for r in data[key]:
 				w.writerows([r])
-	
+
+#creates a csv file for list of teams	
 def createTeamCsv(data):		
 	fieldnames = ['team']
 	fpath = '../data/teams/teams_all.csv'	

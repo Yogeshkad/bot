@@ -8,7 +8,6 @@ matches = {'lan':[], 'onl':[], 'both':[]}
 #filters from hltv stats page are represented in the start url. this spider scrapes 
 #all matches from every page related to given filter
 class spider(Spider):
-	#matches = []
 	name = 'matches'
 	allowed_domains = ['hltv.org']
 	start_urls = [['http://www.hltv.org/?pageid=188&statsfilter=2053&offset=0', 'lan'],
@@ -21,8 +20,7 @@ class spider(Spider):
 		for url in self.start_urls:
 			request = Request(url[0], meta={'matchType': url[1]})		
 			yield request
-		#meta={'filter': url[1]}
-	
+		
 	def closed(self, reason):
 		util.createMatchCsv('lan', matches['lan'])
 		util.createMatchCsv('onl', matches['onl'])

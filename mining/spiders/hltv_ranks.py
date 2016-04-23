@@ -13,8 +13,8 @@ class spider(Spider):
 				['http://www.hltv.org/news/17225-team-ranking-february-2016', ['feb', 1]],
 				['http://www.hltv.org/news/17488-team-ranking-march-2016', ['mar', 1]]]
 	
-	#override start_requests to pass meta variable 'month' containing
-	#[dict key, month type] month type relates to changes in sites html over time
+	#override start_requests to pass meta variable 'month'
+	#which relates to changes in sites html over time
 	def start_requests(self):
 		for url in self.start_urls:		
 			yield Request(url[0], callback=self.parse, meta={'month': url[1]})				
