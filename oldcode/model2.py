@@ -1,7 +1,5 @@
 import pandas as pd 
 import numpy as np
-import datetime as dt
-from datetime import datetime as dt
 from collections import defaultdict 
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
@@ -12,8 +10,6 @@ from sklearn.grid_search import GridSearchCV
 from sklearn.naive_bayes import GaussianNB
 from sklearn import preprocessing
 from sklearn.preprocessing import OneHotEncoder
-import statsmodels.api as sm
-
 
 import csv
 
@@ -21,7 +17,7 @@ teams = []
 teams_all = []
 ranks = {}	
 match_dfs = {}
-teams_all = []
+
 
 months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
 r_months = ['jan', 'feb', 'mar']
@@ -45,15 +41,6 @@ for m in r_months:
 		data = dict((row[0], row[1]) for row in reader)	
 		ranks[m] = defaultdict(lambda: 31, data)
 
-#>>> matches <<<
-for t in mTypes:
-	tdf = pd.read_csv('../data/matches/' + t + '_matches_all.csv', parse_dates=['date'])
-	tdf = tdf[tdf.date >= np.datetime64('2016-02-01')] 
-	match_dfs[t] = tdf
-
-
-
-
 # def removekey(d, key):
 #     r = dict(d)
 #     del r[key]
@@ -67,45 +54,55 @@ for t in mTypes:
 # 					always_ranked_teams = removekey(always_ranked_teams, t)
 
 
-
-
+#>>> matches <<<
+for t in mTypes:
+	tdf = pd.read_csv('../data/matches/' + t + '_matches_all.csv', parse_dates=['date'])
+	tdf = tdf[tdf.date >= np.datetime64('2016-02-01')] 
+	match_dfs[t] = tdf
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>
 currentSet = 'lan'
-print currentSet
+print 'lan'
 #>>>>>>>>>>>>>>>>>>>>>>>>>
 
+#teamlist
+# teamDict = {}
+# for index, row in match_dfs['lan'].iterrows():	
+# 	teamDict[row['team1']] = True
+# 	teamDict[row['team2']] = True 
+
+# for t in teamDict:
+# 	teams_all.append(t)
+
+
 #chose data set
-df = match_dfs[currentSet].copy()
+df_full = match_dfs['lan'].copy()
+#get dummies
+for column in ['team1', 'team2']:
+		dummies = pd.get_dummies(df_full[column])
+		df_full[dummies.columns] = dummies
+#separate training and testing
+df_train = match_dfs['lan'].copy()
+df_train = df_train[df_train.date < np.datetime64('2016-04-01')]	
+df_test = match_dfs['lan'].copy()
+df_test = df_test[df_test.date >= np.datetime64('2016-04-01')]
 
-#trim teams
-df = df[df.team1.isin(teams)]
-df = df[df.team2.isin(teams)]
-
-
-
-#find what teams are in data set
-teamDict = {}
-for index, row in df.iterrows():	
-	print row['team1'], row['team2']
-	teamDict[row['team1']] = True
-	teamDict[row['team2']] = True 
-print '-----'
-for t in teamDict:
-	teams_all.append(t)
-	print t
-
+#set train data to df
+df = df_train
 
 #create winner column
 df['1wins'] = df['score2'] < df['score1']
+y_true = df['1wins'].values
+df_test['1wins'] = df_test['score2'] < df_test['score1']
+y_true_test = df_test['1wins'].values
 
-#>>>>>> create features <<<<<<<
+#create features
 won_last = defaultdict(int)
 df['team1LastWin'] = 0
 df['team2LastWin'] = 0
 last_match_winner = defaultdict(int)
 df['t1WonLast'] = 0
-#df['team1RanksHigher'] = 0
+df['team1RanksHigher'] = 0
 df['t1RankHigher'] = 0
 df['t2RankHigher'] = 0
 last_rounds = defaultdict(int)
@@ -113,7 +110,8 @@ df['t1LastRounds'] = 0
 df['t2LastRounds'] = 0
 df['t1Rank'] = 0
 df['t2Rank'] = 0
-df['numDate'] = 0
+
+
 
 for index, row in df.iterrows():	
 	t1 = row['team1']
@@ -142,19 +140,18 @@ for index, row in df.iterrows():
 	row['t2LastRounds'] = last_rounds[t2]
 	t1_rounds = row['score1'] if row['score1'] < 17 else 16
 	t2_rounds = row['score2'] if row['score2'] < 17 else 16
+	
 	last_rounds[t1] = t1_rounds
 	last_rounds[t2] = t2_rounds
-	#dates as number
-	row['numDate'] = row['date'].to_pydatetime()
-	row['numDate'] = row['numDate'].toordinal()
-	
+
+
 	df.ix[index] = row   
 
 
 # for index, row in df.iterrows():
 # 	print row
 
-  
+
 
 # X = df[['t1WonLast', 't1RankHigher', 't2RankHigher']].values ## <<65%
 # #X = df[['t1WonLast', 't1Rank', 't2Rank']].values 
@@ -168,65 +165,25 @@ for index, row in df.iterrows():
 
 
 
-#------------------
+# le = preprocessing.LabelEncoder()
+# le.fit(teams_all)
+# t1s = le.transform(df['team1'].values)
+# t2s = le.transform(df['team2'].values)
+# X_teams = np.vstack([t1s, t2s]).T
+# onehot = OneHotEncoder()
+# X_teams_expanded = onehot.fit_transform(X_teams).todense()
+
+# for t in X_teams_expanded:
+# 	print t
 
 
 
 
-#separate training and testing
-df_train = df[df.date < np.datetime64('2016-04-01')]	
-df_test = df[df.date >= np.datetime64('2016-04-01')]
-
-#split train and test set
-y_train = df_train['1wins'].values
-
-#drop rows not being used
-rowsToDrop = ['date', 'team1', 'score1', 'team2', 'score2', '1wins', 't1WonLast', 't1RankHigher', 't2RankHigher']
-X_train = df_train.drop(rowsToDrop, axis = 1)   
-X_test = df_test.drop(rowsToDrop, axis = 1)   
-
-#get dummies
-#need to redoo
-#just_dummies = pd.get_dummies(data= df, columns=['team1','team2'])
-#X_train = pd.concat([df_train, just_dummies], axis=1)      
-#        !TEST!
-#X_train.drop(['dummy', 'NiP'], inplace=True, axis=1)
-#X_train = X_train.applymap(np.int) 
-
-#>>>>> encode teams <<<<<
-encoding = LabelEncoder()
-encoding.fit(teams_all)
-
-t1s = encoding.transform(df_train["team1"].values)
-t2s = encoding.transform(df_train["team2"].values)
-X_teams = np.vstack([t1s, t2s]).T
-onehot = OneHotEncoder()
-X_teams = onehot.fit_transform(X_teams).todense()
-X_train = pd.concat([df_train, pd.DataFrame(X_teams)], axis=1)      
+# df['team1'] = le.fit_transform(df['team1'])
+# df['team2'] = le.fit_transform(df['team2'])
 
 
-
-t1s = encoding.transform(df_test["team1"].values)
-t2s = encoding.transform(df_test["team2"].values)
-X_teams = np.vstack([t1s, t2s]).T
-onehot = OneHotEncoder()
-X_test = onehot.fit_transform(X_teams).todense()
-X_test = pd.concat([df_test, pd.DataFrame(X_teams)], axis=1)      
-
-# for x in X_test.iterrows():
-# 	print x
-# for x in t1s:
-# 	print x
-
-# for a in X_teams:
-# 	print a
-# 	print len(a)
-# 	print '------'
-# print type(X_test)
-# print len(teams_all)
-
-#>>>>> model <<<<<                              
 nb_est = GaussianNB()
-nb_est.fit(X_train, y_train)
-pred = nb_est.predict(X_test)
+nb_est.fit(X_teams_expanded, y_true)
+pred = nb_est.predict(df_test)
 

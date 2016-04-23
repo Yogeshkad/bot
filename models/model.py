@@ -155,8 +155,10 @@ X_teams = np.vstack([t1s, t2s]).T
 
 onehot = OneHotEncoder()
 X_teams_expanded = onehot.fit_transform(X_teams).todense()
-X_all = np.hstack([X_home_higher, X_teams])
 
+
+
+X_all = np.hstack([X_home_higher, X_teams])
 
 parameter_space = {
 	"max_features": [2, 5, 'auto'],
