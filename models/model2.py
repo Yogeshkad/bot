@@ -56,13 +56,13 @@ for t in mTypes:
 
 #separate training and testing
 
-for mdf in match_dfs['lan']:
-	df_train = mdf[mdf.date < np.datetime64('2016-04-01')]
-	df_test = mdf[mdf.date >= np.datetime64('2016-04-01')]
+# for mdf in match_dfs['lan']:
+# 	df_train = mdf[mdf.date < np.datetime64('2016-04-01')]
+# 	df_test = mdf[mdf.date >= np.datetime64('2016-04-01')]
 
 print 'lan'
-#df = match_dfs['lan']
-df = df_train.copy()
+df = match_dfs['lan']
+#df = df_train.copy()
 df = df[df.team1.isin(teams)]
 df = df[df.team2.isin(teams)]
 
@@ -128,13 +128,17 @@ for index, row in df.iterrows():
 
 
 
-# X = df[['t1WonLast', 't1RankHigher', 't2RankHigher']].values ## <<65%
-# #X = df[['t1WonLast', 't1Rank', 't2Rank']].values 
-# clf = RandomForestClassifier(random_state=14)
-# scores = cross_val_score(clf, X, y_true, scoring='accuracy')
-# print('Accuracy: {0:.1f}%'.format(np.mean(scores) * 100))
+X = df[['t1WonLast', 't1RankHigher', 't2RankHigher']].values ## <<65%
+#X = df[['t1WonLast', 't1Rank', 't2Rank']].values 
+clf = RandomForestClassifier(random_state=14)
+scores = cross_val_score(clf, X, y_true, scoring='accuracy')
+print('Accuracy: {0:.1f}%'.format(np.mean(scores) * 100))
 
-encoding = LabelEncoder()
-nb_est = GaussianNB()
-nb_est.fit(df, y_true)
+# le = preprocessing.LabelEncoder()
+# le.
+
+# nb_est = GaussianNB()
+# nb_est.fit(df, y_true)
+
+
 
