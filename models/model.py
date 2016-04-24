@@ -60,7 +60,7 @@ for t in mTypes:
 #df = df_mar.append(df_apr, ignore_index=True)
 
 print 'lan'
-df = match_dfs['lan']
+df = match_dfs['both']
 #rank = ranks['feb']
 
 
@@ -117,20 +117,20 @@ for index, row in df.iterrows():
 	row["team1RanksHigher"] = int(t1_rank) < int(t2_rank)
 	df.ix[index] = row    
 
-# df["team1LastRankHigher"] = 0
-# df["team2LastRankHigher"] = 0
-# for index, row in df.iterrows():
-# 	t1 = row["team1"]
-# 	t2 = row["team2"]
-# 	date = row["date"]
-# 	month = months[date.month-2 % 12]
-# 	t1_rank = ranks[month][t1] 
-# 	t2_rank = ranks[month][t2]
+df["team1LastRankHigher"] = 0
+df["team2LastRankHigher"] = 0
+for index, row in df.iterrows():
+	t1 = row["team1"]
+	t2 = row["team2"]
+	date = row["date"]
+	month = months[date.month-2 % 12]
+	t1_rank = ranks[month][t1] 
+	t2_rank = ranks[month][t2]
 
-# 	row["team1LastRankHigher"] = int(t1_rank) < int(t2_rank)
-# 	row["team2LastRankHigher"] = int(t2_rank) < int(t1_rank)
-# 	df.ix[index] = row   
-# 	#print '----------'
+	row["team1LastRankHigher"] = int(t1_rank) < int(t2_rank)
+	row["team2LastRankHigher"] = int(t2_rank) < int(t1_rank)
+	df.ix[index] = row   
+	#print '----------'
 	
 	#print month, t1, t2, t1_rank, t2_rank, row["team1LastRankHigher"], row["team2LastRankHigher"]
 
@@ -144,37 +144,37 @@ for index, row in df.iterrows():
 
 
 
-X_home_higher = df[['team1LastWin', 'team2LastWin', 'team1LastRankHigher', 'team2LastRankHigher']].values 
+# X_home_higher = df[['team1LastWin', 'team2LastWin', 'team1LastRankHigher', 'team2LastRankHigher']].values 
 
-encoding = LabelEncoder()
-encoding.fit(df["team1"].values)
+# encoding = LabelEncoder()
+# encoding.fit(df["team1"].values)
 
-t1s = encoding.transform(df["team1"].values)
-t2s = encoding.transform(df["team2"].values)
-X_teams = np.vstack([t1s, t2s]).T
+# t1s = encoding.transform(df["team1"].values)
+# t2s = encoding.transform(df["team2"].values)
+# X_teams = np.vstack([t1s, t2s]).T
 
-onehot = OneHotEncoder()
-X_teams_expanded = onehot.fit_transform(X_teams).todense()
+# onehot = OneHotEncoder()
+# X_teams_expanded = onehot.fit_transform(X_teams).todense()
 
 
 
-X_all = np.hstack([X_home_higher, X_teams])
+# X_all = np.hstack([X_home_higher, X_teams])
 
-parameter_space = {
-	"max_features": [2, 5, 'auto'],
-	"n_estimators": [100,],
-	"criterion": ["gini", "entropy"],
-	"min_samples_leaf": [2, 4, 6],
-}
-clf = RandomForestClassifier(random_state=14)
-grid = GridSearchCV(clf, parameter_space)
-grid.fit(X_all, y_true)
-print("Accuracy: {0:.1f}%".format(grid.best_score_ * 100))
+# parameter_space = {
+# 	"max_features": [2, 5, 'auto'],
+# 	"n_estimators": [100,],
+# 	"criterion": ["gini", "entropy"],
+# 	"min_samples_leaf": [2, 4, 6],
+# }
+# clf = RandomForestClassifier(random_state=14)
+# grid = GridSearchCV(clf, parameter_space)
+# grid.fit(X_all, y_true)
+# print("Accuracy: {0:.1f}%".format(grid.best_score_ * 100))
 #----------------------------------------------
 
 #X =  df[['team1WonLast', 'team1RanksHigher']].values
 
-#X = df[['team1LastWin', 'team2LastWin', 'team1RanksHigher']].values ##>>>>>>>>>>>>>>>>>  #68.5 <<<<<<<<<<<<<<<<<<<<<<<<<
+X = df[['team1LastWin', 'team2LastWin', 'team1RanksHigher']].values ##>>>>>>>>>>>>>>>>>  #68.5 <<<<<<<<<<<<<<<<<<<<<<<<<
 
 #X = df[['team1LastWin', 'team2LastWin', 'team1LastRankHigher', 'team2LastRankHigher']].values 
 
@@ -183,12 +183,13 @@ print("Accuracy: {0:.1f}%".format(grid.best_score_ * 100))
 #X = X_teams_expanded
 
 #----------------------------------------------
-#clf = DecisionTreeClassifier(random_state=14)
-#clf = RandomForestClassifier(random_state=14)
-
+clfD = DecisionTreeClassifier(random_state=14)
+clfR = RandomForestClassifier(random_state=14)
 #----------------------------------------------
-#scores = cross_val_score(clf, X, y_true, scoring='accuracy')
-#print("Accuracy: {0:.1f}%".format(np.mean(scores) * 100))
 
+scores = cross_val_score(clfD, X, y_true, scoring='accuracy')
+print( "decision tree " + "Accuracy: {0:.1f}%".format(np.mean(scores) * 100))
 
+scores = cross_val_score(clfR, X, y_true, scoring='accuracy')
+print("random forest " +"Accuracy: {0:.1f}%".format(np.mean(scores) * 100))
 

@@ -1,40 +1,35 @@
 date,team1,score1,team2,score2
-2016-01-23,OpTic,16,NRG,8
-2016-01-23,OpTic,16,NRG,8
-2016-01-23,Torqued,10,Games Academy,16
-2016-01-23,Games Academy,7,Torqued,16
-2016-01-23,Torqued,6,Games Academy,16
 2016-01-24,TSM,7,Winterfox,16
-2016-01-24,Winterfox,16,TSM,11
+2016-01-24,TSM,11,Winterfox,16
 2016-01-24,Splyce,12,Games Academy,16
-2016-01-24,Splyce,9,Games Academy,16
+2016-01-24,Games Academy,16,Splyce,9
 2016-01-24,Winterfox,8,OpTic,16
 2016-01-24,Winterfox,16,OpTic,9
 2016-01-24,OpTic,10,Winterfox,16
 2016-01-25,Games Academy,16,Winterfox,4
 2016-01-25,Games Academy,12,Winterfox,16
-2016-01-25,Winterfox,10,Games Academy,16
+2016-01-25,Games Academy,16,Winterfox,10
 2016-01-25,CeX,14,seven,16
 2016-01-25,CeX,16,seven,10
-2016-01-25,seven,16,CeX,9
+2016-01-25,CeX,9,seven,16
 2016-01-25,neXtPlease!,10,eSuba,16
 2016-01-25,eSuba,16,neXtPlease!,3
 2016-01-26,neXtPlease!,16,CeX,9
 2016-01-26,eSuba,16,seven,13
-2016-01-26,eSuba,16,seven,12
-2016-01-26,seven,7,neXtPlease!,16
+2016-01-26,seven,12,eSuba,16
+2016-01-26,neXtPlease!,16,seven,7
 2016-01-26,neXtPlease!,16,eSuba,21
 2016-01-28,Epiphany Bolt,10,EU4IA,16
 2016-01-28,eSuba,5,Method,16
-2016-01-28,fm-eSports,16,Lions,14
-2016-01-28,GameAgents,16,Imperial Dragons,8
+2016-01-28,Lions,14,fm-eSports,16
+2016-01-28,Imperial Dragons,8,GameAgents,16
 2016-01-29,Eastern Vikings,10,Granted,16
 2016-01-29,EU4IA,9,Method,16
 2016-01-29,Method,16,EU4IA,6
-2016-01-30,fm-eSports,19,GameAgents,17
+2016-01-30,GameAgents,17,fm-eSports,19
 2016-01-30,fm-eSports,16,GameAgents,13
 2016-01-31,mousesports,9,dignitas,16
-2016-01-31,mousesports,3,dignitas,16
+2016-01-31,dignitas,16,mousesports,3
 2016-01-31,NiP,9,ex-Titan,16
 2016-01-31,NiP,13,ex-Titan,16
 2016-02-04,Platinium,16,Sine Metu,14
@@ -44,28 +39,28 @@ date,team1,score1,team2,score2
 2016-02-05,KoN Denmark,16,KoN Norway,11
 2016-02-05,KoN Sweden,16,KoN Denmark,14
 2016-02-05,YP,16,Ancient,14
-2016-02-05,Ancient,0,YP,16
+2016-02-05,YP,16,Ancient,0
 2016-02-06,Quest,16,Binary Dragons,14
-2016-02-06,Quest,31,Binary Dragons,27
+2016-02-06,Binary Dragons,27,Quest,31
 2016-02-06,EYES ON U,10,PENTA,16
 2016-02-06,EYES ON U,7,PENTA,16
 2016-02-06,EURONICS,16,Playing Ducks,8
 2016-02-06,Playing Ducks,16,EURONICS,2
 2016-02-06,Playing Ducks,16,EURONICS,6
-2016-02-06,8bit,7,PARTY,16
+2016-02-06,PARTY,16,8bit,7
 2016-02-06,PARTY,11,8bit,16
-2016-02-06,PARTY,14,8bit,16
+2016-02-06,8bit,16,PARTY,14
 2016-02-06,EYES ON U,13,EURONICS,16
 2016-02-06,EYES ON U,16,EURONICS,13
 2016-02-06,EURONICS,5,EYES ON U,16
-2016-02-06,eXplosive,12,Arcade,16
+2016-02-06,Arcade,16,eXplosive,12
 2016-02-06,Arcade,13,eXplosive,16
-2016-02-06,Arcade,16,eXplosive,5
+2016-02-06,eXplosive,5,Arcade,16
 2016-02-06,Playing Ducks,6,PENTA,16
 2016-02-06,Playing Ducks,6,PENTA,16
 2016-02-06,Fluffy Gangsters,12,Revolution,16
 2016-02-06,Fluffy Gangsters,17,Revolution,19
-2016-02-08,nerdRage,5,DenDD,16
+2016-02-08,DenDD,16,nerdRage,5
 2016-02-09,CPH Wolves,11,Tricked,16
 2016-02-09,Astralis,16,Natus Vincere,13
 2016-02-09,Natus Vincere,16,Astralis,14
@@ -73,32 +68,32 @@ date,team1,score1,team2,score2
 2016-02-09,Granted,11,Platinium,16
 2016-02-09,Platinium,16,Granted,8
 2016-02-09,EnVyUs,22,SK,19
-2016-02-09,SK,6,EnVyUs,16
+2016-02-09,EnVyUs,16,SK,6
 2016-02-10,Enemy,12,Renegades,16
-2016-02-10,Enemy,16,Renegades,10
+2016-02-10,Renegades,10,Enemy,16
 2016-02-10,OpTic,16,AGG,10
 2016-02-10,OpTic,16,AGG,11
 2016-02-10,G2,10,Astralis,16
 2016-02-10,G2,16,Astralis,8
-2016-02-10,FaZe,16,Virtus.pro,9
+2016-02-10,Virtus.pro,9,FaZe,16
 2016-02-10,Virtus.pro,10,FaZe,16
 2016-02-11,Liquid,8,compLexity,16
-2016-02-11,compLexity,14,Liquid,16
+2016-02-11,Liquid,16,compLexity,14
 2016-02-11,Enemy,16,NRG,7
 2016-02-11,Enemy,10,NRG,16
 2016-02-11,Tricked,12,DenDD,16
-2016-02-11,Tricked,7,DenDD,16
+2016-02-11,DenDD,16,Tricked,7
 2016-02-11,SK,16,Natus Vincere,7
 2016-02-11,Natus Vincere,12,SK,16
 2016-02-11,fnatic,16,Virtus.pro,12
-2016-02-11,Virtus.pro,9,fnatic,16
+2016-02-11,fnatic,16,Virtus.pro,9
 2016-02-12,Cloud9,16,CLG,12
-2016-02-12,Cloud9,16,CLG,5
+2016-02-12,CLG,5,Cloud9,16
 2016-02-12,Liquid,13,Luminosity,16
 2016-02-12,Liquid,11,Luminosity,16
-2016-02-12,KoN Norway,16,KoN Finland,6
+2016-02-12,KoN Finland,6,KoN Norway,16
 2016-02-12,KoN Denmark,16,KoN Norway,10
-2016-02-12,KoN Sweden,14,KoN Denmark,16
+2016-02-12,KoN Denmark,16,KoN Sweden,14
 2016-02-14,Tempo Storm,16,compLexity,13
 2016-02-14,CLG,16,Potato Streamers,5
 2016-02-14,ENCE,16,CG,8
@@ -106,31 +101,31 @@ date,team1,score1,team2,score2
 2016-02-14,CG,16,ENCE,14
 2016-02-14,PENTA,8,DenDD,16
 2016-02-14,Publiclir.se,16,Torpedo,14
-2016-02-14,DenDD,16,Publiclir.se,8
+2016-02-14,Publiclir.se,8,DenDD,16
 2016-02-14,CLG,16,Mild,8
-2016-02-14,Mild,8,CLG,16
+2016-02-14,CLG,16,Mild,8
 2016-02-14,Cloud9,16,Day Dreamers,6
-2016-02-14,Cloud9,16,Day Dreamers,11
+2016-02-14,Day Dreamers,11,Cloud9,16
 2016-02-14,Enemy,9,OpTic,16
-2016-02-14,Enemy,16,OpTic,9
+2016-02-14,OpTic,9,Enemy,16
 2016-02-14,Enemy,6,OpTic,16
 2016-02-14,Liquid,13,Tempo Storm,16
 2016-02-14,Tempo Storm,14,Liquid,16
 2016-02-14,Liquid,10,Tempo Storm,16
 2016-02-15,QuetzaL,1,ex-Astral Authority,16
-2016-02-15,Noble,16,ACE,3
+2016-02-15,ACE,3,Noble,16
 2016-02-15,Cloud9,4,OpTic,16
 2016-02-15,OpTic,11,Cloud9,16
 2016-02-15,Cloud9,16,OpTic,10
 2016-02-15,Vault,16,Bee's Money Crew,11
-2016-02-15,Bee's Money Crew,16,Vault,12
+2016-02-15,Vault,12,Bee's Money Crew,16
 2016-02-15,Vault,16,Bee's Money Crew,5
-2016-02-15,CLG,6,Tempo Storm,16
+2016-02-15,Tempo Storm,16,CLG,6
 2016-02-15,CLG,12,Tempo Storm,16
 2016-02-15,Noble,9,ex-Astral Authority,16
 2016-02-15,Cloud9,14,Tempo Storm,16
 2016-02-15,Cloud9,17,Tempo Storm,19
-2016-02-15,fnatic,16,G2,5
+2016-02-15,G2,5,fnatic,16
 2016-02-15,nerdRage,0,gBots,16
 2016-02-15,gBots,16,nerdRage,6
 2016-02-15,fnatic,16,G2,7
@@ -140,63 +135,63 @@ date,team1,score1,team2,score2
 2016-02-16,gBots,16,EU4IA,8
 2016-02-16,FlipSid3,7,Astralis,16
 2016-02-16,FlipSid3,7,Astralis,16
-2016-02-16,EnVyUs,4,fnatic,16
+2016-02-16,fnatic,16,EnVyUs,4
 2016-02-16,k1ck,9,Publiclir.se,16
-2016-02-16,k1ck,3,Publiclir.se,16
+2016-02-16,Publiclir.se,16,k1ck,3
 2016-02-16,fnatic,5,EnVyUs,16
-2016-02-17,compLexity,2,Luminosity,16
+2016-02-17,Luminosity,16,compLexity,2
 2016-02-17,compLexity,9,Luminosity,16
 2016-02-17,Splyce,4,OpTic,16
 2016-02-17,OpTic,16,Splyce,6
-2016-02-17,Virtus.pro,9,Natus Vincere,16
+2016-02-17,Natus Vincere,16,Virtus.pro,9
 2016-02-17,Natus Vincere,16,Virtus.pro,12
+2016-02-17,dignitas,8,NiP,16
 2016-02-17,NiP,16,dignitas,8
-2016-02-17,NiP,16,dignitas,8
-2016-02-17,E-frag.net,16,FlipSid3,9
+2016-02-17,FlipSid3,9,E-frag.net,16
 2016-02-17,FlipSid3,19,E-frag.net,16
 2016-02-18,CLG,5,Renegades,16
 2016-02-18,Renegades,16,CLG,6
 2016-02-18,compLexity,16,Enemy,12
 2016-02-18,compLexity,13,Enemy,16
-2016-02-18,AlienTech,10,nerdRage,16
+2016-02-18,nerdRage,16,AlienTech,10
 2016-02-18,AlienTech,3,nerdRage,16
 2016-02-18,Galatics,16,Imp?rio Multim?dia,13
-2016-02-18,Imp?rio Multim?dia,4,Galatics,16
+2016-02-18,Galatics,16,Imp?rio Multim?dia,4
 2016-02-19,Enemy,16,Bee's Money Crew,5
 2016-02-19,Bee's Money Crew,10,Enemy,16
-2016-02-19,AGG,16,Splyce,10
+2016-02-19,Splyce,10,AGG,16
 2016-02-19,Splyce,12,AGG,16
 2016-02-19,FlipSid3,16,Orgless,9
 2016-02-19,FlipSid3,20,Orgless,22
-2016-02-19,Orgless,16,FlipSid3,10
+2016-02-19,FlipSid3,10,Orgless,16
 2016-02-19,OnlineRol,16,Red Panda,5
-2016-02-19,OnlineRol,16,Red Panda,11
+2016-02-19,Red Panda,11,OnlineRol,16
 2016-02-19,KoN Norway,16,KoN Finland,11
 2016-02-19,Galatics,13,AlienTech,16
 2016-02-19,AlienTech,16,Galatics,9
 2016-02-19,KoN Sweden,16,KoN Norway,14
 2016-02-19,KoN Denmark,19,KoN Sweden,21
-2016-02-20,Liquid,16,Noble,6
+2016-02-20,Noble,6,Liquid,16
 2016-02-20,Liquid,16,Noble,9
 2016-02-20,nxl,13,dream[S]cape,16
 2016-02-20,Risky,13,MiTH,16
 2016-02-20,MiTH,16,dream[S]cape,8
 2016-02-20,nxl,15,Risky,19
-2016-02-21,Threats,7,MVP.karnal,16
+2016-02-21,MVP.karnal,16,Threats,7
 2016-02-21,J2G,19,Expendables,17
-2016-02-21,MVP.karnal,16,J2G,9
+2016-02-21,J2G,9,MVP.karnal,16
 2016-02-21,Expendables,12,Threats,16
 2016-02-21,Splyce,13,NRG,16
 2016-02-21,Splyce,5,NRG,16
 2016-02-21,Torment,9,OpTic,16
 2016-02-21,OpTic,16,Torment,3
 2016-02-21,Cloud9,16,Random 5,12
-2016-02-21,Random 5,1,Cloud9,16
+2016-02-21,Cloud9,16,Random 5,1
 2016-02-21,TSM,7,Renegades,16
 2016-02-21,TSM,9,Renegades,16
 2016-02-21,ex-Astral Authority,14,Liquid,16
 2016-02-21,Liquid,16,ex-Astral Authority,4
-2016-02-21,Just Make it Fast,5,CLG,16
+2016-02-21,CLG,16,Just Make it Fast,5
 2016-02-21,CLG,16,Just Make it Fast,6
 2016-02-21,AGG,16,Selfless,10
 2016-02-21,Selfless,3,AGG,16
@@ -204,27 +199,27 @@ date,team1,score1,team2,score2
 2016-02-21,Echo Fox,9,Tempo Storm,16
 2016-02-21,Cloud9,9,NRG,16
 2016-02-21,Cloud9,16,NRG,9
-2016-02-21,NRG,14,Cloud9,16
+2016-02-21,Cloud9,16,NRG,14
 2016-02-21,Liquid,16,Renegades,10
-2016-02-21,Liquid,16,Renegades,13
-2016-02-21,OpTic,10,Tempo Storm,16
+2016-02-21,Renegades,13,Liquid,16
+2016-02-21,Tempo Storm,16,OpTic,10
 2016-02-21,Tempo Storm,19,OpTic,22
 2016-02-21,Tempo Storm,16,OpTic,1
 2016-02-21,k1ck,16,Imp?rio Multim?dia,3
 2016-02-21,k1ck,13,Imp?rio Multim?dia,16
-2016-02-21,CLG,16,AGG,12
+2016-02-21,AGG,12,CLG,16
 2016-02-21,CLG,16,AGG,3
 2016-02-22,Liquid,16,CLG,1
-2016-02-22,Liquid,16,CLG,4
+2016-02-22,CLG,4,Liquid,16
 2016-02-22,Cloud9,8,Tempo Storm,16
-2016-02-22,Cloud9,16,Tempo Storm,10
+2016-02-22,Tempo Storm,10,Cloud9,16
 2016-02-22,Cloud9,8,Tempo Storm,16
 2016-02-22,compLexity,16,Vault,19
 2016-02-22,Vault,7,compLexity,16
 2016-02-22,compLexity,16,Vault,10
 2016-02-22,Cloud9,12,CLG,16
-2016-02-22,CLG,16,Cloud9,3
-2016-02-22,DeToNator,4,Devcat,16
+2016-02-22,Cloud9,3,CLG,16
+2016-02-22,Devcat,16,DeToNator,4
 2016-02-22,DeToNator,10,Devcat,16
 2016-02-22,Risky,3,dream[S]cape,16
 2016-02-22,PhysX,6,GIANT5,16
@@ -232,24 +227,24 @@ date,team1,score1,team2,score2
 2016-02-22,E-frag.net,16,Orgless,13
 2016-02-22,PENTA,7,SK,16
 2016-02-22,PENTA,3,SK,16
-2016-02-22,Binary Dragons,16,Empire,10
+2016-02-22,Empire,10,Binary Dragons,16
 2016-02-22,Binary Dragons,3,Empire,16
 2016-02-22,Binary Dragons,16,Empire,13
-2016-02-22,Pixel,13,Deathtrap,16
-2016-02-22,LDLC White,13,Platinium,16
+2016-02-22,Deathtrap,16,Pixel,13
+2016-02-22,Platinium,16,LDLC White,13
 2016-02-22,Platinium,16,LDLC White,5
 2016-02-22,PhysX,7,Pixel,16
 2016-02-22,GIANT5,9,Deathtrap,16
-2016-02-22,SK,16,Epiphany Bolt,4
+2016-02-22,Epiphany Bolt,4,SK,16
 2016-02-22,SK,16,Epiphany Bolt,10
 2016-02-22,GIANT5,11,Pixel,16
 2016-02-22,Dead Pixels,16,WaRLegenD,12
 2016-02-22,WaRLegenD,11,Dead Pixels,16
 2016-02-22,PANTERS,8,E-frag.net,16
-2016-02-22,E-frag.net,17,PANTERS,19
+2016-02-22,PANTERS,19,E-frag.net,17
 2016-02-23,OpTic,16,ACE,3
 2016-02-23,ACE,12,OpTic,16
-2016-02-23,Tempo Storm,7,Obey.Alliance,16
+2016-02-23,Obey.Alliance,16,Tempo Storm,7
 2016-02-23,Winterfox,16,NRG,11
 2016-02-23,NRG,16,Winterfox,14
 2016-02-23,Winterfox,6,NRG,16
@@ -258,33 +253,33 @@ date,team1,score1,team2,score2
 2016-02-23,Noble,9,QuetzaL,16
 2016-02-23,J2G,16,Threats,12
 2016-02-23,ENCE,22,Vexed,18
-2016-02-23,Vexed,14,ENCE,16
+2016-02-23,ENCE,16,Vexed,14
 2016-02-23,Method,7,nEophyte,16
-2016-02-23,Method,20,nEophyte,22
+2016-02-23,nEophyte,22,Method,20
 2016-02-23,CPH Wolves,16,Empire,7
 2016-02-23,CPH Wolves,16,Empire,12
 2016-02-23,aZ,14,iNation,16
 2016-02-23,mousesports,13,G2,16
-2016-02-23,ALTERNATE aTTaX,16,Orgless,8
+2016-02-23,Orgless,8,ALTERNATE aTTaX,16
 2016-02-23,ALTERNATE aTTaX,12,Orgless,16
-2016-02-23,mousesports,16,G2,10
+2016-02-23,G2,10,mousesports,16
 2016-02-23,XPC,16,ENRAGE,11
 2016-02-23,aZ,16,ENRAGE,13
 2016-02-23,Virtus.pro,22,EnVyUs,20
 2016-02-23,k1ck,16,Galatics,11
-2016-02-23,k1ck,16,Galatics,9
+2016-02-23,Galatics,9,k1ck,16
 2016-02-23,PANTERS,11,PENTA,16
 2016-02-23,PENTA,19,PANTERS,17
-2016-02-23,XPC,16,iNation,7
+2016-02-23,iNation,7,XPC,16
 2016-02-23,ALTERNATE aTTaX,16,Granted,2
 2016-02-23,ALTERNATE aTTaX,16,Granted,14
 2016-02-23,Virtus.pro,13,EnVyUs,16
 2016-02-23,iNation,16,aZ,2
-2016-02-23,CSGL,19,PANTERS,15
+2016-02-23,PANTERS,15,CSGL,19
 2016-02-23,PANTERS,12,CSGL,16
-2016-02-23,SK,5,E-frag.net,16
+2016-02-23,E-frag.net,16,SK,5
 2016-02-23,SK,16,E-frag.net,11
-2016-02-23,mousesports,15,NiP,19
+2016-02-23,NiP,19,mousesports,15
 2016-02-23,NiP,16,mousesports,14
 2016-02-24,Splyce,16,Winterfox,2
 2016-02-24,Splyce,3,Winterfox,16
@@ -293,89 +288,89 @@ date,team1,score1,team2,score2
 2016-02-24,AGG,11,Selfless,16
 2016-02-24,ex-Astral Authority,11,TSM,16
 2016-02-24,TSM,16,ex-Astral Authority,7
-2016-02-24,Selfless,16,AGG,11
-2016-02-24,Deathtrap,16,iNation,10
+2016-02-24,AGG,11,Selfless,16
+2016-02-24,iNation,10,Deathtrap,16
 2016-02-24,NiP,13,Natus Vincere,16
 2016-02-24,RCTIC,16,Binary Dragons,12
 2016-02-24,RCTIC,16,Binary Dragons,8
 2016-02-24,ALTERNATE aTTaX,14,ENCE,16
 2016-02-24,ALTERNATE aTTaX,17,ENCE,19
-2016-02-24,Gambit,13,CSGL,16
+2016-02-24,CSGL,16,Gambit,13
 2016-02-24,CSGL,16,Gambit,8
-2016-02-24,XPC,5,Pixel,16
-2016-02-24,gBots,19,AlienTech,15
+2016-02-24,Pixel,16,XPC,5
+2016-02-24,AlienTech,15,gBots,19
 2016-02-24,gBots,16,AlienTech,8
 2016-02-24,Natus Vincere,10,NiP,16
 2016-02-24,Deathtrap,16,Pixel,14
 2016-02-24,Deathtrap,16,Pixel,12
 2016-02-24,Virtus.pro,3,Astralis,16
-2016-02-24,CSGL,16,PENTA,7
+2016-02-24,PENTA,7,CSGL,16
 2016-02-24,PENTA,14,CSGL,16
 2016-02-24,Platinium,13,GameAgents,16
 2016-02-24,GameAgents,9,Platinium,16
 2016-02-24,Platinium,12,GameAgents,16
 2016-02-24,Astralis,16,Virtus.pro,11
-2016-02-24,fnatic,16,SK,11
+2016-02-24,SK,11,fnatic,16
 2016-02-24,E-frag.net,16,CSGL,9
-2016-02-24,CSGL,16,E-frag.net,6
+2016-02-24,E-frag.net,6,CSGL,16
 2016-02-24,AlienTech,16,Imp?rio Multim?dia,11
-2016-02-24,AlienTech,16,Imp?rio Multim?dia,9
+2016-02-24,Imp?rio Multim?dia,9,AlienTech,16
 2016-02-24,fnatic,16,SK,6
 2016-02-25,OpTic,16,AGG,6
 2016-02-25,OpTic,16,AGG,7
 2016-02-25,Selfless,12,CLG,16
 2016-02-25,Bee's Money Crew,16,myRevenge,9
-2016-02-25,Bee's Money Crew,16,myRevenge,10
+2016-02-25,myRevenge,10,Bee's Money Crew,16
 2016-02-25,CLG,6,Selfless,16
 2016-02-25,Liquid,14,NRG,16
 2016-02-25,QuetzaL,3,CLG,16
 2016-02-25,QuetzaL,8,CLG,16
-2016-02-25,NRG,12,Liquid,16
+2016-02-25,Liquid,16,NRG,12
 2016-02-25,T5,9,MVP project,16
 2016-02-25,MVP project,13,T5,16
 2016-02-25,MVP project,16,T5,4
-2016-02-25,Empire,16,Enso,6
+2016-02-25,Enso,6,Empire,16
 2016-02-25,Enso,8,Empire,16
-2016-02-25,k1ck,16,LDLC White,10
+2016-02-25,LDLC White,10,k1ck,16
 2016-02-25,k1ck,13,LDLC White,16
 2016-02-25,k1ck,16,LDLC White,12
 2016-02-25,fnatic,16,Astralis,2
-2016-02-25,Astralis,13,fnatic,16
+2016-02-25,fnatic,16,Astralis,13
 2016-02-25,fnatic,16,Astralis,12
 2016-02-25,nerdRage,12,k1ck,16
 2016-02-25,k1ck,16,nerdRage,7
-2016-02-25,Torpedo,16,Orgless,8
+2016-02-25,Orgless,8,Torpedo,16
 2016-02-25,Torpedo,16,Orgless,3
 2016-02-25,CPH Wolves,10,ENCE,16
 2016-02-25,ENCE,16,CPH Wolves,12
 2016-02-26,VexX,16,Obey.Alliance,14
 2016-02-26,VexX,11,Obey.Alliance,16
-2016-02-26,Obey.Alliance,16,VexX,7
+2016-02-26,VexX,7,Obey.Alliance,16
 2016-02-26,MiTH,16,J2G,10
-2016-02-26,MiTH,12,J2G,16
+2016-02-26,J2G,16,MiTH,12
 2016-02-26,MiTH,3,J2G,16
 2016-02-26,Emc,14,Devcat,16
 2016-02-26,dream[S]cape,10,MVP.karnal,16
 2016-02-26,MVP.karnal,16,dream[S]cape,7
 2016-02-26,KoN Norway,16,KoN Finland,6
-2016-02-26,KoN Norway,16,KoN Denmark,7
+2016-02-26,KoN Denmark,7,KoN Norway,16
 2016-02-26,KoN Sweden,16,KoN Norway,6
-2016-02-27,MiTH,16,dream[S]cape,5
+2016-02-27,dream[S]cape,5,MiTH,16
 2016-02-27,MiTH,14,dream[S]cape,16
 2016-02-27,MiTH,14,dream[S]cape,16
 2016-02-27,J2G,6,MVP.karnal,16
 2016-02-27,MVP.karnal,16,J2G,4
 2016-02-28,J2G,6,dream[S]cape,16
-2016-02-28,dream[S]cape,16,J2G,7
+2016-02-28,J2G,7,dream[S]cape,16
 2016-02-28,MVP.karnal,14,dream[S]cape,16
-2016-02-28,MVP.karnal,16,dream[S]cape,4
+2016-02-28,dream[S]cape,4,MVP.karnal,16
 2016-02-28,MVP.karnal,16,dream[S]cape,7
 2016-02-28,Publiclir.se,16,k1ck,7
 2016-02-28,k1ck,16,Publiclir.se,8
 2016-02-28,Galatics,17,Publiclir.se,19
 2016-02-28,Publiclir.se,17,Galatics,19
 2016-02-29,LDLC Blue,6,Epiphany Bolt,16
-2016-02-29,Epiphany Bolt,11,LDLC Blue,16
+2016-02-29,LDLC Blue,16,Epiphany Bolt,11
 2016-02-29,LDLC Blue,16,Epiphany Bolt,3
 2016-03-01,Torpedo,7,ALTERNATE aTTaX,16
 2016-03-01,ALTERNATE aTTaX,17,Torpedo,19
@@ -386,47 +381,47 @@ date,team1,score1,team2,score2
 2016-03-02,FlipSid3,16,CSGL,3
 2016-03-02,AlienTech,14,k1ck,16
 2016-03-02,AlienTech,4,k1ck,16
-2016-03-03,Selfless,16,TSM,8
+2016-03-03,TSM,8,Selfless,16
 2016-03-03,TSM,16,Selfless,6
-2016-03-03,TSM,14,Selfless,16
+2016-03-03,Selfless,16,TSM,14
 2016-03-03,CLG,16,NRG,11
 2016-03-03,CLG,11,NRG,16
 2016-03-03,NRG,16,CLG,10
 2016-03-04,compLexity,4,Liquid,16
 2016-03-04,compLexity,4,Liquid,16
-2016-03-04,Selfless,13,NRG,16
+2016-03-04,NRG,16,Selfless,13
 2016-03-04,NRG,17,Selfless,19
-2016-03-04,NRG,4,Selfless,16
+2016-03-04,Selfless,16,NRG,4
 2016-03-04,KoN Denmark,6,KoN Finland,16
 2016-03-04,KoN Norway,3,KoN Finland,16
 2016-03-04,KoN Finland,8,KoN Sweden,16
 2016-03-06,eXplosive,16,Empire,10
 2016-03-06,Empire,16,eXplosive,12
 2016-03-06,eXplosive,8,Empire,16
-2016-03-06,Method,14,YP,16
+2016-03-06,YP,16,Method,14
 2016-03-06,Method,8,YP,16
 2016-03-06,Publiclir.se,16,gBots,12
-2016-03-06,gBots,16,Publiclir.se,19
+2016-03-06,Publiclir.se,19,gBots,16
 2016-03-06,Fluffy Gangsters,13,Binary Dragons,16
-2016-03-06,Binary Dragons,16,Fluffy Gangsters,19
+2016-03-06,Fluffy Gangsters,19,Binary Dragons,16
 2016-03-06,Fluffy Gangsters,12,Binary Dragons,16
 2016-03-06,Publiclir.se,16,Imp?rio Multim?dia,4
-2016-03-06,Publiclir.se,16,Imp?rio Multim?dia,5
-2016-03-07,YP,14,Empire,16
+2016-03-06,Imp?rio Multim?dia,5,Publiclir.se,16
+2016-03-07,Empire,16,YP,14
 2016-03-07,YP,16,Empire,10
 2016-03-07,Binary Dragons,16,Tempest,10
-2016-03-07,Tempest,16,Binary Dragons,11
+2016-03-07,Binary Dragons,11,Tempest,16
 2016-03-07,Binary Dragons,11,Tempest,16
 2016-03-07,HellRaisers,14,Empire,16
 2016-03-07,Empire,6,HellRaisers,16
 2016-03-07,HellRaisers,16,Empire,10
-2016-03-07,LDLC Blue,12,Dead Pixels,16
+2016-03-07,Dead Pixels,16,LDLC Blue,12
 2016-03-07,LDLC Blue,16,Dead Pixels,10
 2016-03-07,LDLC Blue,16,Dead Pixels,14
 2016-03-07,nerdRage,17,k1ck,19
 2016-03-07,k1ck,22,nerdRage,19
 2016-03-07,Publiclir.se,14,DenDD,16
-2016-03-07,DenDD,7,Publiclir.se,16
+2016-03-07,Publiclir.se,16,DenDD,7
 2016-03-07,Publiclir.se,4,DenDD,16
 2016-03-07,Empire,22,Tempest,19
 2016-03-07,Tempest,6,Empire,16
@@ -434,62 +429,62 @@ date,team1,score1,team2,score2
 2016-03-07,k1ck,16,AlienTech,12
 2016-03-07,LPDC,1,Platinium,16
 2016-03-07,Platinium,16,LPDC,14
-2016-03-08,Liquid,17,OpTic,19
+2016-03-08,OpTic,19,Liquid,17
 2016-03-08,Liquid,16,OpTic,7
 2016-03-08,Liquid,12,OpTic,16
 2016-03-08,Arcade,16,Little Einsteins,12
 2016-03-08,Epsilon,19,Space Soldiers,21
 2016-03-08,PENTA,14,ENCE,16
 2016-03-08,ENCE,16,PENTA,12
-2016-03-08,Astralis,16,mousesports,12
+2016-03-08,mousesports,12,Astralis,16
 2016-03-08,Space Soldiers,16,Arcade,12
 2016-03-08,mousesports,4,Astralis,16
 2016-03-08,GameAgents,6,Deathtrap,16
-2016-03-08,NiP,16,FaZe,7
+2016-03-08,FaZe,7,NiP,16
 2016-03-08,Epsilon,16,Torpedo,14
-2016-03-08,Torpedo,11,Epsilon,16
-2016-03-08,ex-Epiphany,16,eXplosive,0
+2016-03-08,Epsilon,16,Torpedo,11
+2016-03-08,eXplosive,0,ex-Epiphany,16
 2016-03-08,NiP,16,FaZe,9
 2016-03-08,Deathtrap,6,ex-Epiphany,16
 2016-03-09,Renegades,16,Winterfox,4
 2016-03-09,Renegades,16,Winterfox,3
 2016-03-09,OpTic,16,Selfless,6
-2016-03-09,OpTic,16,Selfless,7
+2016-03-09,Selfless,7,OpTic,16
 2016-03-09,AGG,12,Splyce,16
 2016-03-09,Splyce,16,AGG,6
 2016-03-09,Reason,2,E-frag.net,16
 2016-03-09,Reason,1,E-frag.net,16
 2016-03-09,Nordics,9,AlienTech,16
 2016-03-09,fm-eSports,10,Gambit,16
-2016-03-09,Gambit,16,fm-eSports,9
+2016-03-09,fm-eSports,9,Gambit,16
 2016-03-09,FlipSid3,16,Preparation,6
 2016-03-09,FlipSid3,16,Preparation,3
 2016-03-09,dignitas,16,DenDD,6
-2016-03-09,NiP,16,Virtus.pro,2
+2016-03-09,Virtus.pro,2,NiP,16
 2016-03-09,ALTERNATE aTTaX,13,Team123,16
 2016-03-09,WE GOT GAME,13,miMo,16
-2016-03-09,NiP,16,Virtus.pro,11
+2016-03-09,Virtus.pro,11,NiP,16
 2016-03-09,Team123,11,dignitas,16
 2016-03-09,ggrabb,18,Revival,21
-2016-03-09,GameAgents,11,SK,16
+2016-03-09,SK,16,GameAgents,11
 2016-03-09,SK,16,GameAgents,14
 2016-03-09,EnVyUs,11,G2,16
 2016-03-09,ALTERNATE aTTaX,16,DenDD,12
-2016-03-09,Bpro,16,AlienTech,6
-2016-03-09,Revival,12,miMo,16
+2016-03-09,AlienTech,6,Bpro,16
+2016-03-09,miMo,16,Revival,12
 2016-03-09,EnVyUs,12,G2,16
 2016-03-09,ALTERNATE aTTaX,16,Team123,5
-2016-03-10,OpTic,16,Cloud9,13
+2016-03-10,Cloud9,13,OpTic,16
 2016-03-10,Cloud9,7,OpTic,16
-2016-03-10,Luminosity,16,Winterfox,11
+2016-03-10,Winterfox,11,Luminosity,16
 2016-03-10,AGG,16,8 Minded,3
 2016-03-10,Luminosity,3,Winterfox,16
 2016-03-10,Reason,5,Method,16
 2016-03-10,Method,16,Reason,0
 2016-03-10,E-frag.net,8,Ancient,16
-2016-03-10,CL4NLESS,11,Refuse,16
+2016-03-10,Refuse,16,CL4NLESS,11
 2016-03-10,Method,3,SK,16
-2016-03-10,FlipSid3,9,EnVyUs,16
+2016-03-10,EnVyUs,16,FlipSid3,9
 2016-03-10,dignitas,16,fm-eSports,4
 2016-03-10,fm-eSports,12,dignitas,16
 2016-03-10,BLUEJAYS,2,AR8,16
@@ -499,28 +494,28 @@ date,team1,score1,team2,score2
 2016-03-10,Natus Vincere,19,FaZe,17
 2016-03-10,YP,9,Orgless,16
 2016-03-10,Orgless,16,YP,6
-2016-03-10,E-frag.net,16,Method,11
-2016-03-10,PENTA,16,AR8,7
+2016-03-10,Method,11,E-frag.net,16
+2016-03-10,AR8,7,PENTA,16
 2016-03-10,SK,17,E-frag.net,19
 2016-03-10,Publiclir.se,19,AlienTech,17
 2016-03-10,Publiclir.se,16,AlienTech,14
 2016-03-10,FaZe,12,Natus Vincere,16
 2016-03-11,Luminosity,16,NRG,3
 2016-03-11,Tempo Storm,16,8 Minded,11
-2016-03-11,8 Minded,9,Tempo Storm,16
+2016-03-11,Tempo Storm,16,8 Minded,9
 2016-03-11,Luminosity,16,NRG,9
-2016-03-11,NRG,16,compLexity,13
-2016-03-11,Splyce,7,AGG,16
-2016-03-11,Splyce,1,AGG,16
 2016-03-11,compLexity,13,NRG,16
-2016-03-11,Recursive,16,CSGO2x,4
-2016-03-11,eXplosive,10,DEEZ NUTS,16
+2016-03-11,Splyce,7,AGG,16
+2016-03-11,AGG,16,Splyce,1
+2016-03-11,compLexity,13,NRG,16
+2016-03-11,CSGO2x,4,Recursive,16
+2016-03-11,DEEZ NUTS,16,eXplosive,10
 2016-03-11,LeiSuRe,16,Fluffy Gangsters,14
-2016-03-11,KoN Norway,5,KoN Denmark,16
+2016-03-11,KoN Denmark,16,KoN Norway,5
 2016-03-11,RCTIC,8,eSuba,16
 2016-03-11,Galatics,12,nerdRage,16
 2016-03-11,Galatics,4,nerdRage,16
-2016-03-11,KoN Denmark,12,KoN Finland,16
+2016-03-11,KoN Finland,16,KoN Denmark,12
 2016-03-11,KoN Sweden,16,KoN Finland,11
 2016-03-11,DEEZ NUTS,12,Recursive,16
 2016-03-11,LeiSuRe,4,eSuba,16
@@ -528,26 +523,26 @@ date,team1,score1,team2,score2
 2016-03-12,T5,10,MVP project,16
 2016-03-12,Emc,16,EDG,19
 2016-03-12,Risky,16,Long Live Democracy,14
-2016-03-12,Mahameru,11,Savage Wolves,16
-2016-03-12,dream[S]cape,16,MineSki,10
+2016-03-12,Savage Wolves,16,Mahameru,11
+2016-03-12,MineSki,10,dream[S]cape,16
 2016-03-12,7GU6,8,Threats,16
 2016-03-12,xqR,16,TitaNs,12
-2016-03-12,c5,16,LDLC Blue,7
+2016-03-12,LDLC Blue,7,c5,16
 2016-03-12,AliGon,10,Gambit,16
 2016-03-12,CPH Wolves,16,Platinium,13
 2016-03-12,eSuba,16,BFFsIRL,9
-2016-03-12,Orbit,11,Ancient,16
+2016-03-12,Ancient,16,Orbit,11
 2016-03-12,HellRaisers,8,Preparation,16
 2016-03-12,PENTA,16,demons,11
 2016-03-12,TDJSF,16,ENCE,10
 2016-03-12,EnVyUs,10,Astralis,16
 2016-03-12,EnVyUs,16,Astralis,7
-2016-03-12,G2,14,Virtus.pro,16
+2016-03-12,Virtus.pro,16,G2,14
 2016-03-12,dreamWorks,16,TShow,3
 2016-03-12,rEAK,16,BlackSheep,12
 2016-03-12,Virtus.pro,6,G2,16
-2016-03-12,SK,25,FaZe,23
-2016-03-12,DEMONIO,21,Apoka Academics,17
+2016-03-12,FaZe,23,SK,25
+2016-03-12,Apoka Academics,17,DEMONIO,21
 2016-03-12,SK,3,FaZe,16
 2016-03-12,NRG,16,AGG,10
 2016-03-12,INTZ,16,ProGaming,10
@@ -555,51 +550,51 @@ date,team1,score1,team2,score2
 2016-03-13,dreamWorks,16,rEAK,14
 2016-03-13,compLexity,15,Cloud9,19
 2016-03-13,INTZ,31,DEMONIO,25
-2016-03-13,Cloud9,16,compLexity,2
+2016-03-13,compLexity,2,Cloud9,16
 2016-03-13,Renegades,7,OpTic,16
 2016-03-13,Renegades,16,OpTic,9
 2016-03-13,TyLoo,16,dream[S]cape,9
-2016-03-13,TyLoo,16,dream[S]cape,8
+2016-03-13,dream[S]cape,8,TyLoo,16
 2016-03-13,EDG,10,Legacy,16
 2016-03-13,Legacy,16,EDG,13
 2016-03-13,Threats,13,VG.CyberZen,16
-2016-03-13,VG.CyberZen,16,Threats,4
+2016-03-13,Threats,4,VG.CyberZen,16
 2016-03-13,nxl,6,Signature,16
 2016-03-13,nxl,10,Signature,16
 2016-03-13,MVP.karnal,19,MVP project,16
 2016-03-13,MVP.karnal,16,MVP project,10
 2016-03-13,TheMongolz,16,Savage Wolves,5
-2016-03-13,Savage Wolves,3,TheMongolz,16
-2016-03-13,inchk1ng,16,Risky,8
+2016-03-13,TheMongolz,16,Savage Wolves,3
+2016-03-13,Risky,8,inchk1ng,16
 2016-03-13,inchk1ng,16,Risky,3
 2016-03-13,Immunity,15,xqR,19
 2016-03-13,Immunity,16,xqR,2
-2016-03-13,xqR,3,Immunity,16
+2016-03-13,Immunity,16,xqR,3
 2016-03-13,TheMongolz,8,Signature,16
 2016-03-13,Signature,5,TheMongolz,16
 2016-03-13,TheMongolz,12,Signature,16
-2016-03-13,Legacy,17,VG.CyberZen,19
+2016-03-13,VG.CyberZen,19,Legacy,17
 2016-03-13,Legacy,7,VG.CyberZen,16
 2016-03-13,TyLoo,16,MVP.karnal,6
-2016-03-13,MVP.karnal,5,TyLoo,16
+2016-03-13,TyLoo,16,MVP.karnal,5
 2016-03-13,Immunity,16,inchk1ng,6
 2016-03-13,Immunity,7,inchk1ng,16
-2016-03-13,Immunity,16,inchk1ng,9
+2016-03-13,inchk1ng,9,Immunity,16
 2016-03-13,VG.CyberZen,19,Signature,16
 2016-03-13,VG.CyberZen,16,Signature,14
 2016-03-13,Gambit,16,noKappa,9
 2016-03-13,Gambit,5,noKappa,16
-2016-03-13,noKappa,16,Gambit,14
+2016-03-13,Gambit,14,noKappa,16
 2016-03-13,CPH Wolves,8,E-frag.net,16
-2016-03-13,CPH Wolves,16,E-frag.net,12
+2016-03-13,E-frag.net,12,CPH Wolves,16
 2016-03-13,CPH Wolves,16,E-frag.net,8
 2016-03-13,SK,13,Ancient,16
 2016-03-13,Ancient,11,SK,16
 2016-03-13,SK,17,Ancient,19
 2016-03-13,PENTA,12,CSGL,16
-2016-03-13,CSGL,16,PENTA,14
+2016-03-13,PENTA,14,CSGL,16
 2016-03-13,dignitas,16,TDJSF,7
-2016-03-13,dignitas,16,TDJSF,4
+2016-03-13,TDJSF,4,dignitas,16
 2016-03-13,mousesports,16,c5,8
 2016-03-13,mousesports,16,c5,9
 2016-03-13,Preparation,19,FlipSid3,17
@@ -607,16 +602,16 @@ date,team1,score1,team2,score2
 2016-03-13,FlipSid3,19,Preparation,17
 2016-03-13,Immunity,7,TyLoo,16
 2016-03-13,TyLoo,16,Immunity,4
-2016-03-13,G2,8,eSuba,16
+2016-03-13,eSuba,16,G2,8
 2016-03-13,eSuba,6,G2,16
-2016-03-13,eSuba,12,G2,16
+2016-03-13,G2,16,eSuba,12
 2016-03-13,dignitas,13,CSGL,16
 2016-03-13,CSGL,16,dignitas,3
 2016-03-13,TyLoo,16,VG.CyberZen,8
-2016-03-13,VG.CyberZen,10,TyLoo,16
+2016-03-13,TyLoo,16,VG.CyberZen,10
 2016-03-13,CPH Wolves,13,G2,16
-2016-03-13,G2,15,CPH Wolves,19
-2016-03-13,CPH Wolves,12,G2,16
+2016-03-13,CPH Wolves,19,G2,15
+2016-03-13,G2,16,CPH Wolves,12
 2016-03-13,mousesports,16,noKappa,7
 2016-03-13,mousesports,16,noKappa,3
 2016-03-13,gBots,16,Galatics,6
@@ -624,26 +619,26 @@ date,team1,score1,team2,score2
 2016-03-13,Ancient,16,FlipSid3,12
 2016-03-13,FlipSid3,16,Ancient,9
 2016-03-13,FlipSid3,16,Ancient,7
-2016-03-13,SK,7,Astralis,16
+2016-03-13,Astralis,16,SK,7
 2016-03-13,Galatics,4,k1ck,16
 2016-03-13,k1ck,16,Galatics,11
 2016-03-13,SK,5,Astralis,16
-2016-03-13,G2,16,FlipSid3,12
+2016-03-13,FlipSid3,12,G2,16
 2016-03-13,Publiclir.se,16,nerdRage,9
 2016-03-13,Publiclir.se,16,nerdRage,6
 2016-03-13,Perrinho Sin Colinha,3,Innova,16
 2016-03-13,FlipSid3,7,G2,16
 2016-03-13,BigGods,16,Crashers,2
-2016-03-13,mousesports,4,fnatic,16
+2016-03-13,fnatic,16,mousesports,4
 2016-03-13,TSG,5,LDDM,16
 2016-03-13,OpTic,16,compLexity,10
 2016-03-13,Gathers,14,CNB,16
 2016-03-13,mousesports,19,fnatic,17
 2016-03-13,compLexity,4,OpTic,16
-2016-03-14,AGG,6,Renegades,16
+2016-03-14,Renegades,16,AGG,6
 2016-03-14,CNB,16,LDDM,14
 2016-03-14,Renegades,16,AGG,12
-2016-03-14,Cloud9,16,Selfless,10
+2016-03-14,Selfless,10,Cloud9,16
 2016-03-14,Cloud9,4,Selfless,16
 2016-03-14,Gambit,10,fm-eSports,16
 2016-03-14,fm-eSports,10,Gambit,16
@@ -653,32 +648,32 @@ date,team1,score1,team2,score2
 2016-03-14,Method,16,Binary Dragons,4
 2016-03-14,k1ck,5,E-frag.net,16
 2016-03-14,k1ck,19,E-frag.net,22
-2016-03-14,FlipSid3,16,ENCE,10
+2016-03-14,ENCE,10,FlipSid3,16
 2016-03-14,ENCE,11,FlipSid3,16
 2016-03-14,CSGL,11,XPC,16
-2016-03-14,mousesports,16,G2,19
-2016-03-14,G2,14,mousesports,16
+2016-03-14,G2,19,mousesports,16
+2016-03-14,mousesports,16,G2,14
 2016-03-14,mousesports,16,G2,13
 2016-03-14,XPC,9,noKappa,16
-2016-03-14,Imp?rio Multim?dia,16,k1ck,11
+2016-03-14,k1ck,11,Imp?rio Multim?dia,16
 2016-03-14,k1ck,16,Imp?rio Multim?dia,13
-2016-03-14,FlipSid3,17,CSGL,19
+2016-03-14,CSGL,19,FlipSid3,17
 2016-03-14,FlipSid3,8,CSGL,16
 2016-03-14,ENCE,16,Method,13
 2016-03-14,Method,2,ENCE,16
 2016-03-14,Platinium,22,LDLC Blue,19
 2016-03-14,Platinium,13,LDLC Blue,16
-2016-03-14,LDLC Blue,16,Platinium,14
+2016-03-14,Platinium,14,LDLC Blue,16
 2016-03-14,Renegades,16,Winterfox,9
-2016-03-14,Renegades,16,Winterfox,2
+2016-03-14,Winterfox,2,Renegades,16
 2016-03-15,compLexity,16,TSM,3
 2016-03-15,compLexity,16,TSM,19
 2016-03-15,TSM,16,compLexity,0
 2016-03-15,Tempo Storm,16,BOTS,7
 2016-03-15,Tempo Storm,16,BOTS,2
-2016-03-15,EDG,13,TyLoo,16
+2016-03-15,TyLoo,16,EDG,13
 2016-03-15,TyLoo,16,EDG,9
-2016-03-15,Wings,6,VG.CyberZen,16
+2016-03-15,VG.CyberZen,16,Wings,6
 2016-03-15,Wings,1,VG.CyberZen,16
 2016-03-15,HellRaisers,16,Space Soldiers,11
 2016-03-15,Enso,16,nerdRage,7
@@ -686,39 +681,39 @@ date,team1,score1,team2,score2
 2016-03-15,Tricked,19,SK,17
 2016-03-15,Tricked,5,SK,16
 2016-03-15,Natus Vincere,16,dignitas,14
-2016-03-15,PENTA,25,VwS,22
+2016-03-15,VwS,22,PENTA,25
 2016-03-15,Natus Vincere,16,dignitas,3
 2016-03-15,G2,16,SK,5
 2016-03-15,HellRaisers,5,PENTA,16
 2016-03-15,VwS,10,Space Soldiers,16
 2016-03-15,G2,16,SK,13
-2016-03-15,Easy Fix,12,ExAequo,16
+2016-03-15,ExAequo,16,Easy Fix,12
 2016-03-15,ExAequo,16,Easy Fix,8
 2016-03-15,HellRaisers,7,Space Soldiers,16
-2016-03-15,E-frag.net,16,DenDD,13
+2016-03-15,DenDD,13,E-frag.net,16
 2016-03-15,DenDD,10,E-frag.net,16
 2016-03-16,Winterfox,5,OpTic,16
 2016-03-16,CLG,16,Noble,7
-2016-03-16,Noble,6,CLG,16
+2016-03-16,CLG,16,Noble,6
 2016-03-16,Winterfox,16,OpTic,6
 2016-03-16,Splyce,16,compLexity,7
 2016-03-16,Selfless,16,Prospects,11
-2016-03-16,Selfless,16,Prospects,11
+2016-03-16,Prospects,11,Selfless,16
 2016-03-16,compLexity,16,Splyce,14
 2016-03-16,LDLC Blue,16,GameAgents,5
 2016-03-16,LDLC Blue,16,GameAgents,10
-2016-03-16,VwS,7,SK,16
+2016-03-16,SK,16,VwS,7
 2016-03-16,SK,16,VwS,9
 2016-03-16,G2,16,dignitas,6
-2016-03-16,dignitas,16,G2,10
+2016-03-16,G2,10,dignitas,16
 2016-03-16,gBots,16,k1ck,14
 2016-03-16,k1ck,9,gBots,16
 2016-03-16,NiP,16,fnatic,6
 2016-03-16,CSGL,8,Empire,16
-2016-03-16,dignitas,16,DenDD,10
+2016-03-16,DenDD,10,dignitas,16
 2016-03-16,dignitas,16,DenDD,11
 2016-03-16,NiP,10,fnatic,16
-2016-03-16,Imp?rio Multim?dia,3,gBots,16
+2016-03-16,gBots,16,Imp?rio Multim?dia,3
 2016-03-16,gBots,16,Imp?rio Multim?dia,5
 2016-03-17,Cloud9,19,Renegades,16
 2016-03-17,Renegades,8,Cloud9,16
@@ -728,133 +723,133 @@ date,team1,score1,team2,score2
 2016-03-17,Obey.Alliance,8,Tempo Storm,16
 2016-03-17,Tempo Storm,16,Obey.Alliance,9
 2016-03-17,compLexity,17,CLG,19
-2016-03-17,CLG,16,compLexity,10
+2016-03-17,compLexity,10,CLG,16
 2016-03-17,AllGamers,16,eFuture,8
 2016-03-17,AllGamers,16,eFuture,12
 2016-03-17,New4,16,HG,5
-2016-03-17,HG,5,New4,16
+2016-03-17,New4,16,HG,5
 2016-03-17,ALTERNATE aTTaX,12,HellRaisers,16
-2016-03-17,ALTERNATE aTTaX,13,HellRaisers,16
+2016-03-17,HellRaisers,16,ALTERNATE aTTaX,13
 2016-03-17,RCTIC,16,Method,19
-2016-03-17,Method,11,RCTIC,16
+2016-03-17,RCTIC,16,Method,11
 2016-03-17,RCTIC,22,Method,20
 2016-03-17,Epsilon,6,SK,16
-2016-03-17,SK,11,Epsilon,16
+2016-03-17,Epsilon,16,SK,11
 2016-03-17,Epsilon,12,SK,16
 2016-03-17,G2,16,FaZe,13
 2016-03-17,G2,16,FaZe,10
 2016-03-17,CSGL,19,Ancient,17
 2016-03-17,Ancient,16,CSGL,14
 2016-03-17,CSGL,16,Ancient,12
-2016-03-17,SK,8,mousesports,16
+2016-03-17,mousesports,16,SK,8
 2016-03-17,mousesports,11,SK,16
 2016-03-18,Liquid,11,Renegades,16
-2016-03-18,CLG,16,KKona,8
+2016-03-18,KKona,8,CLG,16
 2016-03-18,CLG,16,KKona,12
-2016-03-18,Liquid,16,Renegades,7
+2016-03-18,Renegades,7,Liquid,16
 2016-03-18,Cloud9,16,Luminosity,13
 2016-03-18,Cloud9,7,Luminosity,16
-2016-03-18,KoN Denmark,2,KoN Norway,16
+2016-03-18,KoN Norway,16,KoN Denmark,2
 2016-03-18,KoN Norway,12,KoN Finland,16
 2016-03-18,KoN Sweden,4,KoN Finland,16
 2016-03-19,Renegades,9,Tempo Storm,16
 2016-03-19,Tempo Storm,16,Renegades,14
 2016-03-19,Space Soldiers,16,nGw,3
 2016-03-19,Winterfox,13,Selfless,16
-2016-03-19,Selfless,16,Winterfox,14
-2016-03-19,TSM,19,Renegades,16
+2016-03-19,Winterfox,14,Selfless,16
+2016-03-19,Renegades,16,TSM,19
 2016-03-19,TSM,4,Renegades,16
 2016-03-19,TSM,16,Renegades,10
-2016-03-19,Tempest,5,Fluffy Gangsters,16
+2016-03-19,Fluffy Gangsters,16,Tempest,5
 2016-03-19,PENTA,16,Orbit,8
 2016-03-19,HellRaisers,16,LDLC Blue,7
-2016-03-19,Tricked,13,WE GOT GAME,16
+2016-03-19,WE GOT GAME,16,Tricked,13
 2016-03-19,Epsilon,21,Refuse,19
 2016-03-19,ENCE,16,Arcade,8
 2016-03-19,FaZe,14,mousesports,16
 2016-03-19,FaZe,13,mousesports,16
 2016-03-19,fnatic,16,dignitas,6
 2016-03-19,Luminosity,16,Selfless,12
-2016-03-19,Selfless,16,Luminosity,13
+2016-03-19,Luminosity,13,Selfless,16
 2016-03-19,Luminosity,14,Selfless,16
-2016-03-19,fnatic,16,dignitas,5
+2016-03-19,dignitas,5,fnatic,16
 2016-03-19,NiP,16,SK,8
-2016-03-19,CLG,10,Tempo Storm,16
+2016-03-19,Tempo Storm,16,CLG,10
 2016-03-19,CLG,16,Tempo Storm,7
 2016-03-19,CLG,16,Tempo Storm,4
 2016-03-19,Liquid,16,Winterfox,8
 2016-03-19,NiP,19,SK,16
-2016-03-19,Winterfox,16,Liquid,11
+2016-03-19,Liquid,11,Winterfox,16
 2016-03-20,Luminosity,16,CLG,9
 2016-03-20,OpTic,3,Cloud9,16
 2016-03-20,Cloud9,19,OpTic,17
 2016-03-20,CLG,12,Luminosity,16
-2016-03-20,TSM,16,Liquid,19
+2016-03-20,Liquid,19,TSM,16
 2016-03-20,Liquid,16,TSM,7
 2016-03-20,Splyce,5,Selfless,16
 2016-03-20,Splyce,11,Selfless,16
 2016-03-20,G2,16,Fluffy Gangsters,13
 2016-03-20,G2,16,Fluffy Gangsters,2
-2016-03-20,Gambit,5,HellRaisers,16
 2016-03-20,HellRaisers,16,Gambit,5
-2016-03-20,CPH Wolves,16,PENTA,6
+2016-03-20,HellRaisers,16,Gambit,5
+2016-03-20,PENTA,6,CPH Wolves,16
 2016-03-20,CPH Wolves,16,PENTA,10
 2016-03-20,WE GOT GAME,8,FlipSid3,16
 2016-03-20,FlipSid3,16,WE GOT GAME,4
 2016-03-20,ENCE,11,Ancient,16
 2016-03-20,ENCE,10,Ancient,16
-2016-03-20,NewSkill Infinity,15,dignitas,19
+2016-03-20,dignitas,19,NewSkill Infinity,15
 2016-03-20,dignitas,16,NewSkill Infinity,3
-2016-03-20,Space Soldiers,8,AGG,16
+2016-03-20,AGG,16,Space Soldiers,8
 2016-03-20,Space Soldiers,11,AGG,16
 2016-03-20,Epsilon,11,SK,16
 2016-03-20,SK,12,Epsilon,16
 2016-03-20,Epsilon,11,SK,16
 2016-03-20,CPH Wolves,6,G2,16
-2016-03-20,G2,13,CPH Wolves,16
+2016-03-20,CPH Wolves,16,G2,13
 2016-03-20,CPH Wolves,19,G2,16
-2016-03-20,FlipSid3,4,Ancient,16
+2016-03-20,Ancient,16,FlipSid3,4
 2016-03-20,FlipSid3,10,Ancient,16
 2016-03-20,HellRaisers,16,dignitas,7
 2016-03-20,dignitas,16,HellRaisers,5
 2016-03-20,HellRaisers,4,dignitas,16
-2016-03-20,SK,19,AGG,22
+2016-03-20,AGG,22,SK,19
 2016-03-20,SK,5,AGG,16
 2016-03-20,Cloud9,16,Selfless,5
 2016-03-20,Selfless,3,Cloud9,16
 2016-03-20,mousesports,12,FlipSid3,16
 2016-03-20,CPH Wolves,3,Ancient,16
-2016-03-20,Ancient,16,CPH Wolves,11
+2016-03-20,CPH Wolves,11,Ancient,16
 2016-03-20,dignitas,3,AGG,16
 2016-03-20,dignitas,16,AGG,10
 2016-03-20,AGG,8,dignitas,16
 2016-03-20,mousesports,13,FlipSid3,16
 2016-03-20,Liquid,16,CLG,8
-2016-03-20,CLG,19,Liquid,17
+2016-03-20,Liquid,17,CLG,19
 2016-03-20,CLG,7,Liquid,16
-2016-03-20,Natus Vincere,16,EnVyUs,11
+2016-03-20,EnVyUs,11,Natus Vincere,16
 2016-03-20,Natus Vincere,16,EnVyUs,7
 2016-03-20,dignitas,11,Astralis,16
 2016-03-20,Winterfox,16,Selfless,10
-2016-03-20,dignitas,5,Astralis,16
+2016-03-20,Astralis,16,dignitas,5
 2016-03-20,Winterfox,5,Selfless,16
 2016-03-21,Liquid,16,CLG,5
 2016-03-21,Liquid,22,CLG,19
-2016-03-21,Splyce,11,Luminosity,16
-2016-03-21,Cloud9,17,Liquid,19
+2016-03-21,Luminosity,16,Splyce,11
+2016-03-21,Liquid,19,Cloud9,17
 2016-03-21,Cloud9,16,Liquid,7
 2016-03-21,Cloud9,16,Liquid,5
 2016-03-21,Luminosity,16,Splyce,8
 2016-03-21,ENCE,10,AGG,16
 2016-03-21,ENCE,6,AGG,16
-2016-03-21,ALTERNATE aTTaX,16,Enso,13
+2016-03-21,Enso,13,ALTERNATE aTTaX,16
 2016-03-21,Arcade,13,HellRaisers,16
-2016-03-21,SK,16,LDLC Blue,1
+2016-03-21,LDLC Blue,1,SK,16
 2016-03-21,LDLC Blue,16,SK,14
-2016-03-21,LDLC Blue,3,SK,16
+2016-03-21,SK,16,LDLC Blue,3
 2016-03-21,RCTIC,16,eXtatus,13
-2016-03-21,eXtatus,5,RCTIC,16
-2016-03-21,Alpha,16,Nevermad,13
+2016-03-21,RCTIC,16,eXtatus,5
+2016-03-21,Nevermad,13,Alpha,16
 2016-03-21,Nevermad,9,Alpha,16
 2016-03-21,Empire,16,AGG,14
 2016-03-21,eXplosive,8,Ancient,16
@@ -868,23 +863,23 @@ date,team1,score1,team2,score2
 2016-03-21,TSM,6,Luminosity,16
 2016-03-21,TSM,2,Luminosity,16
 2016-03-22,Cloud9,16,NRG,12
-2016-03-22,Cloud9,16,NRG,5
+2016-03-22,NRG,5,Cloud9,16
 2016-03-22,compLexity,12,Winterfox,16
-2016-03-22,NRG,16,Vault,10
+2016-03-22,Vault,10,NRG,16
 2016-03-22,Vault,9,NRG,16
 2016-03-22,compLexity,14,Winterfox,16
 2016-03-22,AllGamers,2,EDG,16
-2016-03-22,AllGamers,5,EDG,16
+2016-03-22,EDG,16,AllGamers,5
 2016-03-22,VG.CyberZen,16,HG,5
 2016-03-22,VG.CyberZen,16,HG,14
-2016-03-22,ENCE,7,AGG,16
+2016-03-22,AGG,16,ENCE,7
 2016-03-22,ENCE,17,AGG,19
 2016-03-22,ALTERNATE aTTaX,10,HellRaisers,16
-2016-03-22,HellRaisers,16,ALTERNATE aTTaX,11
+2016-03-22,ALTERNATE aTTaX,11,HellRaisers,16
 2016-03-22,Enso,16,eXtatus,12
-2016-03-22,Enso,19,eXtatus,16
+2016-03-22,eXtatus,16,Enso,19
 2016-03-22,FlipSid3,16,SK,10
-2016-03-22,TogetherAsOne,13,CS-GO.rs,16
+2016-03-22,CS-GO.rs,16,TogetherAsOne,13
 2016-03-22,Epsilon,3,PENTA,16
 2016-03-22,Epsilon,16,PENTA,7
 2016-03-22,PENTA,16,Epsilon,19
@@ -892,7 +887,7 @@ date,team1,score1,team2,score2
 2016-03-22,Platinium,10,Orgless,16
 2016-03-22,SK,16,FlipSid3,13
 2016-03-22,SuperMassive,7,iNation,16
-2016-03-22,HellRaisers,13,Ancient,16
+2016-03-22,Ancient,16,HellRaisers,13
 2016-03-22,HellRaisers,16,Ancient,5
 2016-03-22,HellRaisers,16,Ancient,9
 2016-03-22,RB,9,Deathtrap,16
@@ -902,17 +897,17 @@ date,team1,score1,team2,score2
 2016-03-23,Selfless,16,OpTic,10
 2016-03-23,OpTic,14,Selfless,16
 2016-03-23,Broken Alliance,16,TNT,4
-2016-03-23,Splyce,4,Renegades,16
+2016-03-23,Renegades,16,Splyce,4
 2016-03-23,Winterfox,10,NRG,16
 2016-03-23,CLG,16,Tempo Storm,11
 2016-03-23,Tempo Storm,6,CLG,16
-2016-03-23,Braindead,16,h00liGaNz,12
-2016-03-23,Renegades,16,Splyce,6
+2016-03-23,h00liGaNz,12,Braindead,16
+2016-03-23,Splyce,6,Renegades,16
 2016-03-23,Winterfox,12,NRG,16
-2016-03-23,One,13,Mist Globals,16
+2016-03-23,Mist Globals,16,One,13
 2016-03-23,Fluffy Gangsters,14,CSGL,16
 2016-03-23,Method,12,Orgless,16
-2016-03-23,FlipSid3,13,fnatic,16
+2016-03-23,fnatic,16,FlipSid3,13
 2016-03-23,CPH Wolves,10,LDLC Blue,16
 2016-03-23,Planetkey,16,Empire,3
 2016-03-23,Empire,16,Planetkey,12
@@ -920,34 +915,34 @@ date,team1,score1,team2,score2
 2016-03-23,E-frag.net,10,YP,16
 2016-03-23,fnatic,16,FlipSid3,14
 2016-03-23,LDLC Blue,16,YP,10
-2016-03-23,LDLC Blue,7,YP,16
+2016-03-23,YP,16,LDLC Blue,7
 2016-03-23,LDLC Blue,12,YP,16
 2016-03-23,PENTA,9,Gambit,16
-2016-03-23,Gambit,22,PENTA,20
+2016-03-23,PENTA,20,Gambit,22
 2016-03-23,NiP,16,Astralis,8
-2016-03-23,NiP,16,Astralis,4
+2016-03-23,Astralis,4,NiP,16
 2016-03-24,Luminosity,16,KKona,13
 2016-03-24,Insomnia,16,PSISTORM,12
-2016-03-24,SYG,7,Third pupil,16
+2016-03-24,Third pupil,16,SYG,7
 2016-03-24,Luminosity,16,KKona,5
 2016-03-24,Winterfox,7,Cloud9,16
 2016-03-24,NRG,5,Selfless,16
-2016-03-24,Selfless,22,NRG,18
+2016-03-24,NRG,18,Selfless,22
 2016-03-24,Wet Bandits,4,Kitfoxes,16
 2016-03-24,Cloud9,16,Winterfox,3
-2016-03-24,Grimalkin,9,Young Money Militia,16
+2016-03-24,Young Money Militia,16,Grimalkin,9
 2016-03-24,Insomnia,8,Third pupil,16
 2016-03-24,AGG,4,Escape,16
 2016-03-24,neXtPlease!,11,aimclub,16
 2016-03-24,XPC,12,Bpro,16
-2016-03-24,Escape,16,CSGL,11
+2016-03-24,CSGL,11,Escape,16
 2016-03-24,CSGL,16,Escape,8
-2016-03-24,CSGL,19,Escape,22
+2016-03-24,Escape,22,CSGL,19
 2016-03-24,Torpedo,16,k1ck,13
 2016-03-24,k1ck,10,Torpedo,16
-2016-03-24,AGG,9,ALTERNATE aTTaX,16
+2016-03-24,ALTERNATE aTTaX,16,AGG,9
 2016-03-24,ALTERNATE aTTaX,14,AGG,16
-2016-03-24,ALTERNATE aTTaX,4,AGG,16
+2016-03-24,AGG,16,ALTERNATE aTTaX,4
 2016-03-24,Escape,16,YP,7
 2016-03-24,YP,7,Escape,16
 2016-03-25,8 Minded,19,Lucendi Azolt,21
@@ -956,53 +951,53 @@ date,team1,score1,team2,score2
 2016-03-25,Obey.Alliance,16,KKona,13
 2016-03-25,DSS,11,Booty Clappers,16
 2016-03-25,One,16,Devour,14
-2016-03-25,Insolent,16,Lucendi Azolt,7
+2016-03-25,Lucendi Azolt,7,Insolent,16
 2016-03-25,One,5,Booty Clappers,16
 2016-03-25,Fluffy Gangsters,16,AGG,13
 2016-03-25,PENTA,13,Arcade,16
 2016-03-25,Empire,16,k1ck,7
 2016-03-25,Torpedo,16,Binary Dragons,10
 2016-03-25,KoN Denmark,9,KoN Norway,16
-2016-03-25,Bpro,16,CS-GO.rs,6
+2016-03-25,CS-GO.rs,6,Bpro,16
 2016-03-25,Torpedo,17,Empire,19
 2016-03-25,Empire,10,Torpedo,16
 2016-03-25,Torpedo,16,Empire,7
 2016-03-25,KoN Sweden,16,KoN Norway,11
-2016-03-25,KoN Sweden,16,KoN Finland,12
-2016-03-26,Fluffy Gangsters,3,Arcade,16
+2016-03-25,KoN Finland,12,KoN Sweden,16
+2016-03-26,Arcade,16,Fluffy Gangsters,3
 2016-03-26,Arcade,16,Fluffy Gangsters,13
 2016-03-27,Deathtrap,16,SuperMassive,3
 2016-03-27,iNation,7,aimclub,16
-2016-03-27,Preparation,14,eXplosive,16
+2016-03-27,eXplosive,16,Preparation,14
 2016-03-27,Ancient,16,Iwku,5
 2016-03-27,RB,11,TogetherAsOne,16
 2016-03-27,eXplosive,5,Ancient,16
 2016-03-27,Ancient,16,eXplosive,6
 2016-03-28,CPH Wolves,9,CSGL,16
-2016-03-28,CPH Wolves,16,CSGL,6
+2016-03-28,CSGL,6,CPH Wolves,16
 2016-03-28,CPH Wolves,7,CSGL,16
 2016-03-28,RCTIC,15,Empire,15
-2016-03-28,CSGL,19,Ancient,16
+2016-03-28,Ancient,16,CSGL,19
 2016-03-28,CSGL,16,Ancient,8
 2016-03-28,RAIDERS,11,visomvet,16
 2016-03-28,visomvet,16,RAIDERS,10
 2016-03-30,Method,1,AGG,16
 2016-03-30,Method,16,AGG,8
-2016-03-30,AGG,16,Method,5
+2016-03-30,Method,5,AGG,16
 2016-03-30,Deathtrap,16,TogetherAsOne,8
-2016-03-30,GameAgents,16,XPC,9
-2016-03-31,ALTERNATE aTTaX,19,Torpedo,17
+2016-03-30,XPC,9,GameAgents,16
+2016-03-31,Torpedo,17,ALTERNATE aTTaX,19
 2016-03-31,ALTERNATE aTTaX,4,Torpedo,16
 2016-03-31,ALTERNATE aTTaX,15,Torpedo,19
 2016-03-31,GameAgents,16,CS-GO.rs,12
 2016-03-31,iNation,11,Pixel,16
-2016-03-31,XPC,16,neXtPlease!,8
+2016-03-31,neXtPlease!,8,XPC,16
 2016-04-01,KoN Denmark,13,KoN Norway,16
 2016-04-01,KoN Finland,16,KoN Norway,9
 2016-04-01,Bpro,16,TogetherAsOne,9
-2016-04-03,Nevermad,16,PENTA,4
+2016-04-03,PENTA,4,Nevermad,16
 2016-04-03,PENTA,16,Nevermad,7
-2016-04-03,neXtPlease!,16,CS-GO.rs,14
+2016-04-03,CS-GO.rs,14,neXtPlease!,16
 2016-04-03,iNation,11,XPC,16
 2016-04-04,Epsilon,16,AGG,2
 2016-04-04,Epsilon,16,AGG,10
@@ -1014,35 +1009,35 @@ date,team1,score1,team2,score2
 2016-04-05,RB,8,GameAgents,16
 2016-04-06,Renegades,2,NRG,16
 2016-04-06,Renegades,13,NRG,16
-2016-04-06,AGG,9,HellRaisers,16
+2016-04-06,HellRaisers,16,AGG,9
 2016-04-06,HellRaisers,16,AGG,13
 2016-04-06,dignitas,19,XPC,15
 2016-04-06,XPC,4,dignitas,16
 2016-04-06,Planetkey,17,PENTA,19
-2016-04-06,SK,8,Gambit,16
+2016-04-06,Gambit,16,SK,8
 2016-04-06,SK,16,Gambit,5
-2016-04-06,HellRaisers,16,CSGL,5
+2016-04-06,CSGL,5,HellRaisers,16
 2016-04-06,HellRaisers,16,CSGL,6
 2016-04-06,SK,16,AGG,10
-2016-04-06,AGG,16,SK,5
+2016-04-06,SK,5,AGG,16
 2016-04-06,Winterfox,21,Echo Fox,25
 2016-04-06,Winterfox,12,Echo Fox,16
 2016-04-07,KKona,18,compLexity,22
 2016-04-07,compLexity,8,KKona,16
 2016-04-07,Obey.Alliance,15,Echo Fox,19
-2016-04-07,Obey.Alliance,5,Echo Fox,16
+2016-04-07,Echo Fox,16,Obey.Alliance,5
 2016-04-07,Obey.Alliance,16,KKona,6
-2016-04-07,KKona,9,Obey.Alliance,16
-2016-04-07,Empire,16,PENTA,14
+2016-04-07,Obey.Alliance,16,KKona,9
+2016-04-07,PENTA,14,Empire,16
 2016-04-07,E-frag.net,16,Gambit,3
 2016-04-07,E-frag.net,16,Gambit,6
 2016-04-07,NiP,16,FlipSid3,4
 2016-04-07,HellRaisers,16,SK,14
 2016-04-07,HellRaisers,16,SK,12
-2016-04-07,NiP,16,FlipSid3,8
+2016-04-07,FlipSid3,8,NiP,16
 2016-04-07,Bpro,16,Deathtrap,8
 2016-04-07,Method,9,nerdRage,16
-2016-04-07,Method,16,nerdRage,11
+2016-04-07,nerdRage,11,Method,16
 2016-04-07,Method,5,nerdRage,16
 2016-04-07,Space Soldiers,16,GODSENT,10
 2016-04-07,GODSENT,5,Space Soldiers,16
@@ -1050,102 +1045,102 @@ date,team1,score1,team2,score2
 2016-04-07,Pixel,10,aimclub,16
 2016-04-07,HellRaisers,14,Gambit,16
 2016-04-07,HellRaisers,9,Gambit,16
-2016-04-07,SK,16,Virtus.pro,12
+2016-04-07,Virtus.pro,12,SK,16
 2016-04-07,Gambit,16,AGG,14
 2016-04-07,Gambit,16,AGG,9
-2016-04-07,dignitas,16,EnVyUs,14
+2016-04-07,EnVyUs,14,dignitas,16
 2016-04-07,EnVyUs,7,dignitas,16
-2016-04-07,KKona,12,Echo Fox,16
+2016-04-07,Echo Fox,16,KKona,12
 2016-04-07,Echo Fox,16,KKona,14
 2016-04-08,Cloud9,8,Liquid,16
 2016-04-08,Cloud9,5,Liquid,16
 2016-04-08,OpTic,10,Liquid,16
 2016-04-08,Liquid,16,OpTic,12
 2016-04-08,Empire,1,AGG,16
-2016-04-08,AGG,16,Empire,3
+2016-04-08,Empire,3,AGG,16
 2016-04-08,mousesports,14,HellRaisers,16
 2016-04-08,mousesports,19,HellRaisers,17
 2016-04-08,mousesports,11,HellRaisers,16
 2016-04-08,mousesports,16,HellRaisers,8
 2016-04-08,HellRaisers,9,mousesports,16
-2016-04-08,XPC,12,SuperMassive,16
+2016-04-08,SuperMassive,16,XPC,12
 2016-04-08,ENCE,16,Alter Your Ego,2
 2016-04-08,Alter Your Ego,6,ENCE,16
 2016-04-08,KoN Denmark,11,KoN Norway,16
-2016-04-08,miMo,5,Epsilon,16
+2016-04-08,Epsilon,16,miMo,5
 2016-04-08,Epsilon,16,miMo,11
 2016-04-08,iNation,16,CS-GO.rs,6
-2016-04-08,KoN Norway,7,KoN Finland,16
+2016-04-08,KoN Finland,16,KoN Norway,7
 2016-04-08,Splyce,16,Echo Fox,10
 2016-04-08,Splyce,11,Echo Fox,16
-2016-04-08,Echo Fox,16,Splyce,12
+2016-04-08,Splyce,12,Echo Fox,16
 2016-04-08,Splyce,16,Echo Fox,10
 2016-04-08,Echo Fox,16,Splyce,11
-2016-04-09,G2,16,Gambit,7
+2016-04-09,Gambit,7,G2,16
 2016-04-09,G2,16,Gambit,6
 2016-04-09,G2,16,Gambit,10
 2016-04-09,Santos.DeX,12,BigGods,16
-2016-04-09,BigGods,16,Santos.DeX,8
+2016-04-09,Santos.DeX,8,BigGods,16
 2016-04-10,mousesports,16,Astralis,5
 2016-04-10,mousesports,13,Astralis,16
-2016-04-10,Astralis,16,mousesports,3
+2016-04-10,mousesports,3,Astralis,16
 2016-04-10,Virtus.pro,13,dignitas,16
-2016-04-10,Virtus.pro,16,dignitas,4
+2016-04-10,dignitas,4,Virtus.pro,16
 2016-04-10,Virtus.pro,14,dignitas,16
 2016-04-10,HellRaisers,16,Empire,8
 2016-04-10,Empire,3,HellRaisers,16
 2016-04-10,EnVyUs,16,G2,7
 2016-04-10,EnVyUs,6,G2,16
-2016-04-10,G2,20,EnVyUs,22
-2016-04-10,dignitas,16,FlipSid3,8
+2016-04-10,EnVyUs,22,G2,20
+2016-04-10,FlipSid3,8,dignitas,16
 2016-04-10,dignitas,13,FlipSid3,16
 2016-04-10,dignitas,16,FlipSid3,8
 2016-04-10,ALTERNATE aTTaX,16,PENTA,5
 2016-04-10,PENTA,16,ALTERNATE aTTaX,13
 2016-04-10,ALTERNATE aTTaX,12,PENTA,16
 2016-04-10,compLexity,5,NRG,16
-2016-04-11,OpTic,16,Without a Roof,8
+2016-04-11,Without a Roof,8,OpTic,16
 2016-04-11,OpTic,16,Without a Roof,2
 2016-04-11,Gambit,10,AGG,16
-2016-04-11,AGG,17,Gambit,19
+2016-04-11,Gambit,19,AGG,17
 2016-04-11,Gambit,16,AGG,11
 2016-04-11,Tricked,16,Torpedo,14
 2016-04-11,Tricked,13,Torpedo,16
-2016-04-11,Torpedo,16,Tricked,11
+2016-04-11,Tricked,11,Torpedo,16
 2016-04-11,E-frag.net,19,PENTA,22
 2016-04-11,FlipSid3,19,Method,15
 2016-04-11,FlipSid3,16,Method,13
-2016-04-11,E-frag.net,16,PENTA,6
-2016-04-11,PENTA,11,E-frag.net,16
+2016-04-11,PENTA,6,E-frag.net,16
+2016-04-11,E-frag.net,16,PENTA,11
 2016-04-11,GameAgents,16,Bpro,13
 2016-04-11,Deathtrap,19,Pixel,16
 2016-04-11,CPH Wolves,6,SK,16
 2016-04-11,CPH Wolves,19,SK,15
 2016-04-11,SK,16,CPH Wolves,12
-2016-04-11,PENTA,16,Gambit,14
+2016-04-11,Gambit,14,PENTA,16
 2016-04-11,PENTA,11,Gambit,16
 2016-04-11,PENTA,13,Gambit,16
 2016-04-12,AGG,16,Epsilon,12
 2016-04-12,Epsilon,6,AGG,16
 2016-04-12,Epsilon,16,AGG,11
-2016-04-12,AGG,21,Epsilon,18
+2016-04-12,Epsilon,18,AGG,21
 2016-04-12,RCTIC,16,Enso,13
-2016-04-12,RCTIC,13,Enso,16
+2016-04-12,Enso,16,RCTIC,13
 2016-04-12,RCTIC,16,Enso,14
 2016-04-13,RCTIC,2,E-frag.net,16
 2016-04-13,RB,16,iNation,6
 2016-04-13,FlipSid3,16,Escape,11
 2016-04-13,FlipSid3,16,Escape,6
-2016-04-14,Epiphany Bolt,6,AliGon,16
+2016-04-14,AliGon,16,Epiphany Bolt,6
 2016-04-14,AliGon,16,Epiphany Bolt,11
-2016-04-14,RCTIC,16,Enso,5
+2016-04-14,Enso,5,RCTIC,16
 2016-04-14,SK,16,Torpedo,3
 2016-04-14,SK,16,Torpedo,12
 2016-04-16,RB,16,neXtPlease!,7
 2016-04-18,CPH Wolves,16,Enso,12
 2016-04-18,CPH Wolves,16,Enso,13
-2016-04-18,Enso,16,AliGon,12
-2016-04-18,AliGon,16,Enso,6
+2016-04-18,AliGon,12,Enso,16
+2016-04-18,Enso,6,AliGon,16
 2016-04-18,SK,8,E-frag.net,16
 2016-04-18,SK,16,E-frag.net,12
 2016-04-18,neXtPlease!,8,Bpro,16
@@ -1156,82 +1151,82 @@ date,team1,score1,team2,score2
 2016-04-19,FaZe,8,Virtus.pro,16
 2016-04-19,CPH Wolves,16,Epiphany Bolt,5
 2016-04-19,CPH Wolves,16,Epiphany Bolt,1
-2016-04-19,EnVyUs,19,mousesports,22
+2016-04-19,mousesports,22,EnVyUs,19
 2016-04-19,Virtus.pro,10,FaZe,16
 2016-04-19,Virtus.pro,12,FaZe,16
-2016-04-19,CS-GO.rs,7,aimclub,16
+2016-04-19,aimclub,16,CS-GO.rs,7
 2016-04-19,mousesports,16,EnVyUs,8
 2016-04-19,AliGon,16,RCTIC,9
 2016-04-19,RCTIC,7,AliGon,16
 2016-04-19,Natus Vincere,11,fnatic,16
 2016-04-19,Natus Vincere,16,fnatic,13
-2016-04-19,Epiphany Bolt,16,RCTIC,8
+2016-04-19,RCTIC,8,Epiphany Bolt,16
 2016-04-19,RCTIC,29,Epiphany Bolt,31
-2016-04-19,Astralis,16,FaZe,12
+2016-04-19,FaZe,12,Astralis,16
 2016-04-19,Astralis,16,FaZe,9
 2016-04-19,TSM,16,Echo Fox,11
-2016-04-19,Echo Fox,19,TSM,17
+2016-04-19,TSM,17,Echo Fox,19
 2016-04-19,TSM,9,Echo Fox,16
-2016-04-20,Liquid,16,NRG,14
+2016-04-20,NRG,14,Liquid,16
 2016-04-20,Liquid,16,NRG,8
 2016-04-20,inchk1ng,16,MOTV,12
 2016-04-20,TheMongolz,16,EDG,14
-2016-04-20,TheMongolz,16,inchk1ng,10
+2016-04-20,inchk1ng,10,TheMongolz,16
 2016-04-20,MOTV,9,EDG,16
 2016-04-20,GODSENT,16,PiTER,1
 2016-04-20,eXplosive,16,Binary Dragons Gold,1
 2016-04-20,Must Be Stronger,14,Digital Wave,16
-2016-04-20,GODSENT,16,PiTER,13
+2016-04-20,PiTER,13,GODSENT,16
 2016-04-20,eXplosive,16,Binary Dragons Gold,8
 2016-04-20,Must Be Stronger,11,Digital Wave,16
-2016-04-20,inchk1ng,16,EDG,14
-2016-04-20,EnVyUs,16,FaZe,9
+2016-04-20,EDG,14,inchk1ng,16
+2016-04-20,FaZe,9,EnVyUs,16
 2016-04-20,Natus Vincere,16,FlipSid3,12
 2016-04-20,FaZe,11,EnVyUs,16
 2016-04-20,HellRaisers,16,Torpedo,11
 2016-04-20,Torpedo,10,HellRaisers,16
 2016-04-20,Epsilon,16,PENTA,4
-2016-04-20,Epsilon,11,PENTA,16
+2016-04-20,PENTA,16,Epsilon,11
 2016-04-20,Epsilon,16,PENTA,3
 2016-04-20,Natus Vincere,8,FlipSid3,16
-2016-04-20,SuperMassive,16,RB,19
+2016-04-20,RB,19,SuperMassive,16
 2016-04-20,TEAMSWAGYOLO,7,Vesuvius,16
 2016-04-20,Tempest,16,Fluffy Gangsters,19
 2016-04-20,TEAMSWAGYOLO,19,Vesuvius,16
 2016-04-20,TEAMSWAGYOLO,16,Vesuvius,13
 2016-04-20,Fluffy Gangsters,19,Tempest,17
 2016-04-20,dignitas,3,FlipSid3,16
-2016-04-20,Natus Vincere,19,G2,16
+2016-04-20,G2,16,Natus Vincere,19
 2016-04-20,dignitas,16,FlipSid3,7
 2016-04-20,ENCE,16,Escape,8
-2016-04-20,Escape,9,ENCE,16
+2016-04-20,ENCE,16,Escape,9
 2016-04-20,Natus Vincere,3,G2,16
-2016-04-20,FaZe,16,fnatic,6
+2016-04-20,fnatic,6,FaZe,16
 2016-04-20,Luminosity,16,NRG,11
 2016-04-20,NRG,16,Luminosity,19
-2016-04-20,fnatic,10,FaZe,16
+2016-04-20,FaZe,16,fnatic,10
 2016-04-21,Splyce,16,NRG,11
-2016-04-21,NRG,16,Splyce,10
+2016-04-21,Splyce,10,NRG,16
 2016-04-21,CLG,16,KKona,6
 2016-04-21,Cloud9,16,Echo Fox,8
 2016-04-21,Cloud9,7,Echo Fox,16
-2016-04-21,Echo Fox,11,Cloud9,16
-2016-04-21,CLG,16,KKona,10
-2016-04-21,New4,5,LGD,16
+2016-04-21,Cloud9,16,Echo Fox,11
+2016-04-21,KKona,10,CLG,16
+2016-04-21,LGD,16,New4,5
 2016-04-21,New4,16,LGD,10
 2016-04-21,New4,10,LGD,16
 2016-04-21,HG,17,EDG,19
 2016-04-21,EDG,16,HG,3
 2016-04-21,Chiefs,16,Legacy,8
-2016-04-21,Chiefs,14,Legacy,16
+2016-04-21,Legacy,16,Chiefs,14
 2016-04-21,Chiefs,5,Legacy,16
 2016-04-21,Immunity,16,Corvidae,14
 2016-04-21,Immunity,16,Corvidae,5
-2016-04-21,LGD,9,nxl,16
+2016-04-21,nxl,16,LGD,9
 2016-04-21,MVP.karnal,8,Signature,16
-2016-04-21,VG.CyberZen,16,BOF,2
+2016-04-21,BOF,2,VG.CyberZen,16
 2016-04-21,BOF,7,VG.CyberZen,16
-2016-04-21,nxl,16,Signature,10
+2016-04-21,Signature,10,nxl,16
 2016-04-21,Immunity,16,Legacy,14
 2016-04-21,Legacy,17,Immunity,19
 2016-04-21,TyLoo,16,MVP project,3
@@ -1241,16 +1236,16 @@ date,team1,score1,team2,score2
 2016-04-21,dignitas,14,Space Soldiers,16
 2016-04-21,dignitas,13,Space Soldiers,16
 2016-04-21,Torpedo,11,Escape,16
-2016-04-21,Escape,16,Torpedo,4
+2016-04-21,Torpedo,4,Escape,16
 2016-04-21,HellRaisers,16,E-frag.net,14
-2016-04-21,HellRaisers,16,E-frag.net,9
+2016-04-21,E-frag.net,9,HellRaisers,16
 2016-04-21,FaZe,16,FlipSid3,8
 2016-04-21,CS-GO.rs,11,SuperMassive,16
 2016-04-21,NiP,16,EnVyUs,10
-2016-04-21,FlipSid3,2,FaZe,16
+2016-04-21,FaZe,16,FlipSid3,2
 2016-04-21,NiP,16,EnVyUs,3
 2016-04-21,CPH Wolves,16,RCTIC,6
-2016-04-21,RCTIC,8,CPH Wolves,16
+2016-04-21,CPH Wolves,16,RCTIC,8
 2016-04-21,dignitas,16,FaZe,9
 2016-04-21,HellRaisers,16,Gambit,5
 2016-04-21,HellRaisers,16,Gambit,3
@@ -1258,23 +1253,46 @@ date,team1,score1,team2,score2
 2016-04-21,dignitas,7,FaZe,16
 2016-04-21,Virtus.pro,19,mousesports,15
 2016-04-22,CLG,8,Splyce,16
-2016-04-22,CLG,13,Splyce,16
+2016-04-22,Splyce,16,CLG,13
 2016-04-22,Winterfox,16,KKona,7
 2016-04-22,Winterfox,16,KKona,6
 2016-04-22,nxl,16,inchk1ng,9
 2016-04-22,inchk1ng,14,nxl,16
 2016-04-22,TheMongolz,16,Signature,10
-2016-04-22,Signature,11,TheMongolz,16
+2016-04-22,TheMongolz,16,Signature,11
 2016-04-22,EDG,16,MVP project,10
 2016-04-22,MVP project,16,EDG,8
-2016-04-22,MVP project,16,EDG,6
+2016-04-22,EDG,6,MVP project,16
 2016-04-22,E-frag.net,6,AGG,16
 2016-04-22,Pixel,14,CS-GO.rs,16
 2016-04-22,E-frag.net,10,AGG,16
 2016-04-22,KoN Sweden,14,KoN Denmark,16
 2016-04-22,Epsilon,14,HellRaisers,16
 2016-04-22,HellRaisers,16,Epsilon,12
-2016-04-22,KoN Norway,11,KoN Denmark,16
+2016-04-22,KoN Denmark,16,KoN Norway,11
 2016-04-22,iNation,13,Bpro,16
 2016-04-22,Deathtrap,12,GameAgents,16
 2016-04-22,KoN Denmark,15,KoN Finland,21
+2016-04-23,nxl,10,TheMongolz,16
+2016-04-23,TheMongolz,16,nxl,6
+2016-04-23,LGD,8,BOF,16
+2016-04-23,BOF,16,LGD,10
+2016-04-23,Escape,16,WiC,1
+2016-04-23,nerdRage,16,GameAgents,5
+2016-04-23,deadweight,16,PANTERS,12
+2016-04-23,CPH Wolves,16,Magistra,8
+2016-04-23,stfuNerd,11,Metapods,16
+2016-04-23,ALTERNATE aTTaX,9,ENCE,16
+2016-04-23,n0_0rg,16,un-named,8
+2016-04-23,Red Instinct,16,Alpha,10
+2016-04-23,Escape,10,CPH Wolves,16
+2016-04-23,ENCE,16,deadweight,8
+2016-04-23,nerdRage,16,Metapods,13
+2016-04-23,NiP,12,Virtus.pro,16
+2016-04-23,Virtus.pro,25,NiP,22
+2016-04-23,Red Instinct,11,n0_0rg,16
+2016-04-23,ENCE,21,n0_0rg,19
+2016-04-23,CPH Wolves,16,nerdRage,0
+2016-04-23,Deathtrap,6,XPC,16
+2016-04-23,Keyd Stars,16,2 Kill,6
+2016-04-23,CPH Wolves,18,ENCE,21

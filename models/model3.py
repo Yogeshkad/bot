@@ -72,7 +72,7 @@ for t in mTypes:
 
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>
-currentSet = 'lan'
+currentSet = 'onl'
 print currentSet
 #>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -169,6 +169,27 @@ for index, row in df.iterrows():
 
 
 
+
+
+
+
+
+
+
+
+
+#------------------
+
+v = DictVectorizer(sparse=False)
+
+
+
+
+
+
+
+
+
 #------------------
 
 #separate training and testing
@@ -196,7 +217,7 @@ d = pd.concat([X_team_df, d], axis=1)
 y_train = X_train['1wins'].values
 y_test = X_test['1wins'].values
 y_all = X_all['1wins'].values
-
+X = df[['team1LastWin', 'team2LastWin', 't1RankHigher', 't2RankHigher']].values
 #drop rows not being used
 colToDrop = ['date','team1', 'score1', 'team2', 'score2', '1wins', 't1WonLast', 't1RankHigher', 't2RankHigher']
 X_train = X_train.drop(colToDrop, axis = 1)   
@@ -220,12 +241,29 @@ nb_est = GaussianNB()
 # 	"criterion": ["gini", "entropy"],
 # 	"min_samples_leaf": [1, 2, 4, 6],
 # }
-# clf = RandomForestClassifier(random_state=14)
+clf = RandomForestClassifier(random_state=14)
 # grid = GridSearchCV(clf, parameter_space)
 # grid.fit(X_teams, y_all)
 
 # clf = RandomForestClassifier(random_state=14)
 # print("Accuracy: {0:.1f}%".format(grid.best_score_ * 100))
 #scorer = make_scorer(f1_score, pos_label=None, average='weighted')
-# scores = cross_val_score(clf, X_all, y_all, scoring='accuracy')
+
+
+# scores = cross_val_score(clf, X, y_all, scoring='accuracy')
 # print("Accuracy: {0:.1f}%".format(np.mean(scores) * 100))
+
+
+#----------------------------------------------
+y_true = df['1wins'].values
+#X = df[['t1WonLast', 't1RankHigher', 't2RankHigher']].values ## <<LAN BEST w/ either
+X = df[['team1LastWin', 'team2LastWin']].values ## <<ONLINE BEST w/ decision tree
+
+
+clfD = DecisionTreeClassifier(random_state=14)
+clfR = RandomForestClassifier(random_state=14)
+
+scores = cross_val_score(clfD, X, y_true, scoring='accuracy')
+print( "decision tree " + "Accuracy: {0:.1f}%".format(np.mean(scores) * 100))
+scores = cross_val_score(clfR, X, y_true, scoring='accuracy')
+print("random forest " +"Accuracy: {0:.1f}%".format(np.mean(scores) * 100))
